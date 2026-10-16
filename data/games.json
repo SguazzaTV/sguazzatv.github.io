@@ -38,18 +38,19 @@
     "video": null
   },
   {
-    "id": "resident-evil-requiem",
-    "title": "Resident Evil Requiem",
-    "genre": "Horror",
+    "id": "gioco-test",
+    "title": "Gioco di prova",
+    "genre": "Test",
     "hue": 350,
     "motif": "cross",
     "status": "completato",
-    "completed": null,
+    "completed": "2026-10-16",
+    "rating": 4.5,
+    "review": "",
+    "vod": "",
+    "video": "",
     "challenge": null,
-    "rating": null,
-    "review": null,
-    "vod": null,
-    "video": null
+    "cover": ""
   },
   {
     "id": "alien-isolation",
