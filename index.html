@@ -494,14 +494,19 @@ function openGame(id) {
       <div class="review">
         <h4>La recensione di SguazzaTV</h4>
         <p>${escapeHTML(g.review || 'Recensione in arrivo.')}</p>
-      </div>
       <div class="links">
-        <h4>Guarda su YouTube</h4>
-        <div class="btns">
-          ${btn(g.vod, 'VOD su SguazzaVOD', 'VOD: link da aggiungere')}
-          ${btn(g.video, 'Video sul canale principale', 'Video: link da aggiungere')}
-        </div>
-      </div>
+  <h4>${Array.isArray(g.vods) && g.vods.length > 1 ? 'Guarda le run' : 'Guarda il VOD'}</h4>
+  <div class="btns">
+    ${Array.isArray(g.vods) && g.vods.length
+      ? g.vods
+          .filter(v => v && v.url)
+          .map(v => btn(v.url, v.title || 'Guarda su YouTube', ''))
+          .join('')
+      : g.vod
+        ? btn(g.vod, 'Guarda su YouTube', '')
+        : ''}
+  </div>
+</div>
     </div>
   </div>`;
 
