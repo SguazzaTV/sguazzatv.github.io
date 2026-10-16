@@ -1,0 +1,105 @@
+
+backend:
+  name: github
+  repo: SguazzaTV/sguazzatv.github.io
+  branch: main
+  auth_methods: [token]
+
+media_folder: "images/covers"
+public_folder: "/images/covers"
+
+collections:
+  - name: games
+    label: Videogiochi
+    label_singular: Videogioco
+    file: /data/games.json
+    identifier_field: title
+    create: true
+    delete: true
+    fields:
+      - name: id
+        label: ID univoco
+        widget: string
+        hint: "Esempio: resident-evil-requiem. Non usare spazi."
+      - name: title
+        label: Titolo del gioco
+        widget: string
+      - name: genre
+        label: Genere
+        widget: string
+        required: false
+      - name: hue
+        label: Colore provvisorio
+        widget: number
+        value_type: int
+        min: 0
+        max: 360
+        default: 260
+        required: false
+      - name: motif
+        label: Simbolo provvisorio
+        widget: select
+        options: [ring, flame, cross, scan, fog]
+        required: false
+      - name: status
+        label: Stato del gioco
+        widget: select
+        options:
+          - {label: Completato, value: completato}
+          - {label: In corso, value: in_corso}
+          - {label: Abbandonato, value: abbandonato}
+        required: false
+      - name: completed
+        label: Data di completamento
+        widget: datetime
+        date_format: YYYY-MM-DD
+        time_format: false
+        format: YYYY-MM-DD
+        required: false
+      - name: rating
+        label: Voto
+        widget: select
+        options:
+          - {label: "5 stelle", value: 5}
+          - {label: "4,5 stelle", value: 4.5}
+          - {label: "4 stelle", value: 4}
+          - {label: "3,5 stelle", value: 3.5}
+          - {label: "3 stelle", value: 3}
+          - {label: "2,5 stelle", value: 2.5}
+          - {label: "2 stelle", value: 2}
+          - {label: "1,5 stelle", value: 1.5}
+          - {label: "1 stella", value: 1}
+          - {label: "0,5 stelle", value: 0.5}
+        required: false
+      - name: review
+        label: Recensione
+        widget: text
+        required: false
+      - name: vod
+        label: Link SguazzaVOD
+        widget: string
+        required: false
+      - name: video
+        label: Link YouTube principale
+        widget: string
+        required: false
+      - name: challenge
+        label: Challenge
+        widget: object
+        required: false
+        fields:
+          - {name: label, label: Nome challenge, widget: string}
+          - {name: big, label: Scritta grande, widget: string, required: false}
+          - {name: rule, label: Regole, widget: text, required: false}
+          - name: status
+            label: Stato challenge
+            widget: select
+            options:
+              - {label: Conclusa, value: conclusa}
+              - {label: In corso, value: in_corso}
+              - {label: Fallita, value: fallita}
+            required: false
+      - name: cover
+        label: Copertina
+        widget: image
+        required: false
