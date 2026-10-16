@@ -80,7 +80,6 @@ collections:
         widget: string
         required: false
         hint: "Campo precedente: lascialo invariato per i giochi già inseriti."
-
       - name: vods
         label: VOD e Run
         widget: list
