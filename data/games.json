@@ -80,5 +80,29 @@
     "review": null,
     "vod": null,
     "video": null
+  },
+  {
+    "id": "resident-evil-requiem",
+    "title": "Resident Evil Requiem",
+    "genre": "Survival Horror / Action",
+    "hue": 260,
+    "motif": "",
+    "status": "completato",
+    "completed": "2026-03-10",
+    "rating": 5,
+    "review": "Resident Evil Requiem è uno di quei giochi che inizi pensando di trovarti davanti al classico Resident Evil, ma che riesce a sorprenderti quando entra davvero nel vivo. L'atmosfera è riuscitissima: alcune zone ti tengono costantemente in tensione, anche quando pensi di essere al sicuro.\n\nIl gameplay alterna esplorazione, gestione delle risorse e momenti action, mantenendo un ottimo ritmo. Ma è soprattutto nella modalità Follia, senza bonus alle armi, che il gioco cambia completamente: ogni nemico diventa una minaccia e ogni risorsa conta.\n\nQualche momento più lento, ma nel complesso un'esperienza che mi ha tenuto incollato fino alla fine.",
+    "vod": "",
+    "vods": [
+      {
+        "title": "Prima Run",
+        "url": "https://youtu.be/tlNh7hATJTs?si=XBVDsID4D_2ajAEH"
+      },
+      {
+        "title": "Modalità Follia",
+        "url": "https://youtu.be/JbKB1sYeLd0?si=SfZYm_SgKcVVPEfY"
+      }
+    ],
+    "challenge": null,
+    "cover": "/images/covers/4931e391ae1a43d34810d13854799351.jpg"
   }
 ]
