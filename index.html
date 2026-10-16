@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>SguazzaTV Game Library</title>
+<style>
+:root{--bg:#0b0813;--panel:#151021;--panel2:#1d162e;--line:#2c2145;--text:#efeaf9;--mute:#9d93b8;--v:#8b5cf6;--v2:#a855f7;--lilac:#c9bcff;--gold:#f5c451;--ok:#4ade80;--warn:#fb923c;--r:16px;--disp:"Arial Black","Segoe UI Black",Impact,sans-serif;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-behavior:smooth;scroll-padding-top:68px}
+body{margin:0;background:radial-gradient(900px 420px at 85% -80px,#33196b 0,transparent 65%),radial-gradient(700px 400px at -10% 30%,#1c0f3a 0,transparent 60%),var(--bg);color:var(--text);font:16px/1.5 "Segoe UI",system-ui,sans-serif}
+h1,h2,h3{margin:0;font-family:var(--disp);letter-spacing:-.01em;line-height:1.05}
+a{color:var(--lilac)}button{font:inherit;color:inherit;cursor:pointer}
+:focus-visible{outline:2px solid var(--lilac);outline-offset:2px}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+nav{position:sticky;top:0;z-index:5;backdrop-filter:blur(12px);background:rgba(11,8,19,.82);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;gap:22px;height:58px}
+.brand{display:flex;align-items:center;gap:10px;margin-right:auto;text-decoration:none;color:var(--text)}
+.mark{width:34px;height:34px;display:grid;place-items:center;font:900 1.15rem var(--disp);background:linear-gradient(135deg,var(--v),var(--v2));clip-path:polygon(50% 0,100% 25%,100% 75%,50% 100%,0 75%,0 25%);box-shadow:0 0 18px var(--v)}
+.brand b{font:900 1.05rem var(--disp)}.brand b span{color:var(--v2)}
+.brand small{display:block;color:var(--mute);font:500 .72rem "Segoe UI",sans-serif;margin-top:-2px}
+nav a.l{color:var(--mute);text-decoration:none;font-size:.92rem}nav a.l:hover{color:var(--text)}
+.hero{padding:30px 0 8px;display:grid;grid-template-columns:1fr 1.2fr;gap:28px;align-items:center}
+.hero h1{font-size:clamp(2rem,5vw,3.6rem);max-width:13ch}
+.hero h1 em{font-style:normal;color:var(--v2);text-shadow:0 0 28px rgba(168,85,247,.55)}
+.hero p{color:var(--mute);margin:12px 0 0;max-width:48ch}
+.demo-note{display:inline-block;margin-top:14px;padding:5px 12px;border:1px dashed var(--v);border-radius:99px;font-size:.8rem;color:var(--lilac)}
+.side{display:grid;gap:10px}
+.dist{display:grid;grid-template-columns:repeat(5,1fr);gap:8px}
+.rt{display:flex;flex-direction:column;align-items:center;gap:2px;padding:8px 4px 7px;text-align:center;background:linear-gradient(160deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:10px;transition:transform .2s,border-color .2s,box-shadow .2s}
+.rt:hover{transform:translateY(-2px);border-color:var(--v)}
+.rt[aria-pressed=true]{border-color:var(--v2);background:linear-gradient(160deg,rgba(139,92,246,.38),var(--panel));box-shadow:0 0 16px rgba(139,92,246,.45)}
+.rt.z:not([aria-pressed=true]){opacity:.55}.rt.none{grid-column:1/-1;flex-direction:row;justify-content:center;gap:10px;padding:6px}.rt.none .rc{font-size:1.1rem}
+.rs{font-size:.8rem;letter-spacing:1px;white-space:nowrap;line-height:1}
+.rc{font:900 1.5rem var(--disp);color:var(--lilac);line-height:1.1}
+.stars b,.rs b{font-weight:400}.f{color:var(--gold)}.e{color:#463b63}.h{background:linear-gradient(90deg,var(--gold) 50%,#463b63 50%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.rv{font-size:.7rem;color:var(--mute)}
+
+section{padding:26px 0 8px}
+.head{display:flex;align-items:baseline;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.head h2{font-size:1.5rem}.head p{margin:0;color:var(--mute);font-size:.92rem}
+/* challenge */
+.challenges{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:18px}
+.ch{position:relative;display:grid;grid-template-columns:150px 1fr;gap:18px;align-items:stretch;text-align:left;width:100%;padding:16px;border-radius:20px;border:1px solid var(--v);background:radial-gradient(500px 200px at 100% 0,hsl(var(--h) 80% 30% / .55),transparent 70%),linear-gradient(135deg,#1e1535,#120d20);overflow:hidden;transition:transform .25s,box-shadow .25s}
+.ch::before{content:attr(data-big);position:absolute;right:-6px;bottom:-22px;font:900 5.2rem var(--disp);color:rgba(255,255,255,.05);white-space:nowrap}
+.ch:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(139,92,246,.35)}
+.ch .cv{border-radius:12px;box-shadow:0 10px 28px rgba(0,0,0,.5)}
+.ch .tx{display:flex;flex-direction:column;justify-content:center;gap:8px;position:relative}
+.ch h3{font-size:1.35rem}
+.rule{display:inline-block;align-self:flex-start;font:900 .85rem var(--disp);padding:5px 12px;border-radius:99px;background:linear-gradient(90deg,var(--v),var(--v2));color:#fff;box-shadow:0 0 16px rgba(139,92,246,.6)}
+.ch p{margin:0;color:var(--mute);font-size:.9rem}
+.ch .pend{font-size:.8rem;color:var(--lilac)}
+/* tools */
+.tools{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:18px}
+.tools input[type=search],.tools select{background:var(--panel);border:1px solid var(--line);color:var(--text);border-radius:10px;padding:9px 12px;font:inherit}
+.tools input[type=search]{flex:1 1 200px}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{background:var(--panel);border:1px solid var(--line);border-radius:99px;padding:6px 14px;font-size:.88rem;color:var(--mute)}
+.chip[aria-pressed=true]{background:var(--v);border-color:var(--v);color:#fff}
+.switch{display:flex;align-items:center;gap:8px;color:var(--mute);font-size:.85rem}
+/* cards */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:20px}
+.card{position:relative;text-align:left;background:var(--panel);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;padding:0;transition:transform .25s,border-color .25s,box-shadow .25s}
+.card:hover{transform:translateY(-6px);border-color:var(--v);box-shadow:0 16px 36px rgba(139,92,246,.3)}
+.cv{position:relative;display:flex;flex-direction:column;justify-content:flex-end;aspect-ratio:2/3;width:100%;padding:14px;overflow:hidden;background:radial-gradient(120% 70% at 50% 0,hsl(var(--h) 80% 42%),transparent 70%),linear-gradient(180deg,hsl(var(--h) 55% 20%),hsl(calc(var(--h) + 30) 50% 7%))}
+.cv::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(0deg,rgba(255,255,255,.035) 0 1px,transparent 1px 4px),linear-gradient(180deg,transparent 45%,rgba(0,0,0,.75))}
+.cv svg{position:absolute;top:12%;left:50%;width:62%;transform:translateX(-50%);opacity:.5;stroke:hsl(var(--h) 90% 75%);fill:none;stroke-width:2.2}
+.cv .t{position:relative;font:900 clamp(1.1rem,2.2vw,1.45rem)/1.05 var(--disp);text-shadow:0 3px 14px #000;text-transform:uppercase}
+.cv .g{position:relative;font-size:.72rem;color:rgba(255,255,255,.7);margin-bottom:4px}
+.ph{position:absolute;top:10px;right:10px;z-index:2;font-size:.66rem;background:rgba(0,0,0,.6);padding:2px 8px;border-radius:99px;color:var(--mute)}
+.badges{position:absolute;top:10px;left:10px;z-index:2;display:flex;flex-direction:column;align-items:flex-start;gap:5px}.badge{font:800 .7rem "Segoe UI",sans-serif;padding:3px 10px;border-radius:99px;background:rgba(11,8,19,.88);border:1px solid currentColor}.badge.c{color:var(--v2)}.s-in_corso{color:var(--lilac)}.when{color:var(--lilac);font-size:.92rem;margin:0 0 12px}.chbox{margin-top:14px;padding:12px 16px;border-radius:12px;border:1px solid var(--v);background:rgba(139,92,246,.1);font-size:.92rem;color:var(--mute)}.chbox b{font-family:var(--disp);color:var(--text)}
+.s-completato{color:var(--ok)}.s-challenge{color:var(--gold)}.s-corso{color:var(--lilac)}.s-abbandonato{color:var(--warn)}
+.info{padding:12px 14px 14px;display:flex;flex-direction:column;gap:6px}
+.info h3{font:800 1.02rem/1.2 "Segoe UI",sans-serif}
+.stars{color:var(--gold);letter-spacing:2px;white-space:nowrap;font-size:1.05rem}.stars i{font-style:normal;color:#463b63}
+.na{color:var(--mute);font-size:.8rem}
+.empty{color:var(--mute);padding:30px 0}
+/* dialog */
+dialog{width:min(900px,calc(100% - 24px));max-height:calc(100% - 24px);border:1px solid var(--v);border-radius:20px;background:var(--panel);color:var(--text);padding:0;overflow:auto;box-shadow:0 0 60px rgba(139,92,246,.35)}
+dialog::backdrop{background:rgba(5,3,10,.78);backdrop-filter:blur(5px)}
+dialog[open]{animation:pop .22s ease-out}@keyframes pop{from{opacity:0;transform:scale(.96) translateY(10px)}}
+.close{position:sticky;float:right;top:10px;margin:10px 10px 0 0;z-index:3;background:var(--panel2);border:1px solid var(--line);border-radius:50%;width:36px;height:36px}
+.dl{display:grid;grid-template-columns:280px 1fr;gap:26px;padding:24px}
+.dl .cv{border-radius:14px;box-shadow:0 14px 36px rgba(0,0,0,.55)}
+.dl h2{font-size:clamp(1.6rem,4vw,2.3rem);margin:8px 0 4px}
+.meta{color:var(--mute);margin:0 0 14px}
+.bigrate{display:flex;align-items:center;gap:12px;padding:12px 16px;border-radius:12px;background:var(--panel2);border:1px solid var(--line)}
+.bigrate .stars{font-size:1.7rem}
+.review{margin-top:14px;padding:16px 18px;border-radius:12px;background:linear-gradient(135deg,rgba(139,92,246,.16),transparent);border-left:4px solid var(--v)}
+.review h4,.links h4{margin:0 0 6px;font:900 .95rem var(--disp)}
+.review p{margin:0;color:var(--mute);font-size:.95rem}
+.links{margin-top:14px}
+.btns{display:flex;gap:10px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:10px 16px;border-radius:10px;font-weight:700;text-decoration:none;font-size:.92rem}
+.btn.on{background:#e11d48;color:#fff}
+.btn.off{background:var(--panel2);border:1px dashed var(--line);color:var(--mute);font-weight:500}
+.btn svg{width:18px;height:18px;fill:currentColor}
+footer{border-top:1px solid var(--line);margin-top:30px;padding:22px 0 40px;color:var(--mute);font-size:.82rem}
+@media(max-width:760px){.hero{grid-template-columns:1fr}.dist{gap:5px}.rs{font-size:.58rem;letter-spacing:0}.rc{font-size:1.15rem}.rv{font-size:.58rem}.dl{grid-template-columns:1fr}.dl .cv{max-width:230px}.ch{grid-template-columns:110px 1fr}nav a.l.hide{display:none}.challenges{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<nav><div class="wrap">
+<a class="brand" href="#top"><span class="mark">S</span><span><b>Sguazza<span>TV</span></b><small>Game Library</small></span></a>
+<a class="l hide" href="#challenge">Challenge</a><a class="l" href="#libreria">Libreria</a>
+</div></nav>
+
+<header class="wrap hero" id="top">
+<div>
+<h1>Ogni gioco passato in <em>live</em></h1>
+<p>Cosa è stato finito, cosa è ancora in corso e quali sfide hanno messo alla prova la chat.</p>
+<span class="demo-note">Prototipo: voti, recensioni, link e alcuni stati sono dati dimostrativi</span>
+</div>
+<div class="side"><div class="dist" id="dist" aria-label="Distribuzione dei voti"></div></div>
+</header>
+
+<section id="challenge"><div class="wrap">
+<div class="head"><h2>Challenge</h2><p>Le sfide che contano di più.</p></div>
+<div class="challenges" id="challenges"></div>
+</div></section>
+
+<section id="libreria"><div class="wrap">
+<div class="head"><h2>Libreria</h2><p>Cerca un gioco, filtra per stato o clicca un voto in alto.</p></div>
+<div class="tools">
+<input id="q" type="search" placeholder="Cerca un gioco" aria-label="Cerca per nome">
+<div class="chips" id="chips"></div>
+
+<label class="switch"><input type="checkbox" id="demo" checked> Mostra dati dimostrativi</label>
+</div>
+<div class="grid" id="grid"></div>
+<p class="empty" id="empty" hidden>Nessun gioco corrisponde ai filtri. Prova a cambiare la ricerca.</p>
+</div></section>
+
+<footer><div class="wrap">Copertine temporanee: le immagini ufficiali verranno aggiunte solo da fonti consentite, con crediti.</div></footer>
+
+<dialog id="dlg" aria-label="Dettaglio gioco"><button class="close" id="x" aria-label="Chiudi">✕</button><div id="dbody"></div></dialog>
+
+
+
+<script>
+let GAMES = [];
+// Voti DIMOSTRATIVI solo per mostrare il design: non sono opinioni di SguazzaTV.
+const DEMO = {"resident-evil-requiem":4,"alien-isolation":5,"silent-hill-townfall":3,"elden-ring-rl1":5,"dark-souls-remastered-no-death":4};
+const LABEL = {completato:"Completato",in_corso:"In corso",abbandonato:"Abbandonato"};
+const CLAB = {conclusa:"Challenge conclusa",in_corso:"Challenge in corso",fallita:"Challenge fallita"};
+// Stati DIMOSTRATIVI solo per mostrare il design (completato + challenge): non sono dati reali di SguazzaTV.
+const DEMO_ST = {"elden-ring-rl1":{status:"completato",ch:"conclusa"},"dark-souls-remastered-no-death":{status:"in_corso",ch:"in_corso"}};
+const MOTIF = {
+ ring:'<svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="38"/><circle cx="50" cy="50" r="26"/><path d="M50 8v84M8 50h84" opacity=".5"/></svg>',
+ flame:'<svg viewBox="0 0 100 100"><path d="M50 8c8 20 28 28 28 52a28 28 0 0 1-56 0c0-14 8-20 14-30 2 10 8 12 10 14C46 34 44 22 50 8z"/></svg>',
+ cross:'<svg viewBox="0 0 100 100"><path d="M38 10h24v28h28v24H62v28H38V62H10V38h28z"/></svg>',
+ scan:'<svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="38"/><path d="M12 50h76M50 12v76M24 24l52 52" opacity=".5"/></svg>',
+ fog:'<svg viewBox="0 0 100 100"><path d="M10 35h80M20 50h70M10 65h80M25 80h60"/></svg>'};
+const $ = id => document.getElementById(id);
+let fs = '', fc = false, fr = null;
+const rate = g => g.rating ?? ($('demo').checked ? DEMO[g.id] ?? null : null);
+const isDemo = g => g.rating == null && rate(g) != null;
+const D = g => $('demo').checked ? DEMO_ST[g.id] : null;
+const st = g => g.status ?? D(g)?.status ?? null;
+const cs = g => g.challenge ? (g.challenge.status ?? D(g)?.ch ?? null) : null;
+const stDemo = g => g.status == null && st(g) != null;
+const dtxt = d => new Date(d + 'T12:00:00').toLocaleDateString('it-IT', {day:'numeric', month:'long', year:'numeric'});
+const whenTxt = g => { const s = st(g), dm = stDemo(g) ? ' (stato dimostrativo)' : ''; if (s === 'completato') return (g.completed ? 'Completato il ' + dtxt(g.completed) : 'Completato · data non disponibile') + dm; if (s === 'in_corso') return 'In corso' + dm; if (s === 'abbandonato') return 'Abbandonato' + dm; return 'Stato da definire'; };
+const chbox = g => { const c = g.challenge; if (!c) return ''; const s = cs(g); return `<div class="chbox"><b>Challenge ${c.label}</b><br>${c.rule || ''}<br>${s ? CLAB[s] + (c.status == null ? ' (esito dimostrativo)' : '') : 'Esito da definire'}</div>`; };
+const star = n => [1,2,3,4,5].map(i => n >= i ? '<b class="f">★</b>' : n >= i - .5 ? '<b class="h">★</b>' : '<b class="e">★</b>').join('');
+const stars = n => n == null ? '<span class="na">Voto da assegnare</span>' : '<span class="stars" aria-label="' + String(n).replace('.', ',') + ' stelle su 5">' + star(n) + '</span>';
+const cover = g => { const s = st(g), c = g.challenge; return `<div class="cv" style="--h:${g.hue}"><div class="badges">${s ? `<span class="badge s-${s}">${LABEL[s]}</span>` : '<span class="badge na">Stato da definire</span>'}${c ? `<span class="badge c">Challenge ${c.label}</span>` : ''}</div><span class="ph">Copertina temporanea</span>${MOTIF[g.motif] || ''}<span class="g">${g.genre}</span><span class="t">${g.title}</span></div>`; };
+
+function renderChallenges() {
+  $('challenges').innerHTML = GAMES.filter(g => g.challenge).map(g => { const c = g.challenge, s = cs(g);
+    return `<button class="ch" data-id="${g.id}" data-big="${c.big || ''}" style="--h:${g.hue}">${cover(g)}<div class="tx"><span class="rule">${c.label}</span><h3>${g.title}</h3><p>${c.rule || ''}</p><span class="pend">${s ? CLAB[s] + (c.status == null ? ' (demo)' : '') : 'Esito da definire'}</span></div></button>`; }).join('');
+}
+function renderDist() {
+  const rs = GAMES.map(rate), steps = [5,4.5,4,3.5,3,2.5,2,1.5,1,.5];
+  const cnt = steps.map(v => rs.filter(r => r === v).length), none = rs.filter(r => r == null).length;
+  const tile = (key, top, label, n, cls) => `<button class="rt ${cls}${n ? '' : ' z'}" data-r="${key}" aria-pressed="${fr === String(key)}" aria-label="${label}: ${n} giochi">${top}<span class="rc">${n}</span><span class="rv">${label}</span></button>`;
+  $('dist').innerHTML = steps.map((v, i) => tile(v, '<span class="rs">' + star(v) + '</span>', String(v).replace('.', ',') + (v === 1 ? ' stella' : ' stelle'), cnt[i], '')).join('') + tile('none', '', 'Senza voto', none, 'none');
+}
+function renderChips() {
+  $('chips').innerHTML = [['','Tutti'],['completato','Completati'],['in_corso','In corso'],['abbandonato','Abbandonati']]
+    .map(([v, l]) => `<button class="chip" data-f="${v}" aria-pressed="${fs === v}">${l}</button>`).join('') + `<button class="chip" data-c="1" aria-pressed="${fc}">Con challenge</button>`;
+}
+function renderGrid() {
+  const q = $('q').value.trim().toLowerCase();
+  const list = GAMES.filter(g => g.title.toLowerCase().includes(q) && (!fs || st(g) === fs) && (!fc || g.challenge) && (fr == null || (fr === 'none' ? rate(g) == null : rate(g) === +fr)));
+  $('grid').innerHTML = list.map(g => `<button class="card" data-id="${g.id}">${cover(g)}<div class="info"><h3>${g.title}</h3>${stars(rate(g))}</div></button>`).join('');
+  $('empty').hidden = list.length > 0;
+}
+const YT = '<svg viewBox="0 0 24 24"><path d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2C.5 9 .5 12 .5 12s0 3 .5 4.8a3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1c.5-1.8.5-4.8.5-4.8s0-3-.5-4.8zM9.7 15.5v-7l6 3.5z"/></svg>';
+const btn = (u, on, off) => u ? `<a class="btn on" href="${u}" target="_blank" rel="noopener">${YT}${on}</a>` : `<span class="btn off">${YT}${off}</span>`;
+function openGame(id) {
+  const g = GAMES.find(x => x.id === id), r = rate(g);
+  $('dbody').innerHTML = `<div class="dl">${cover(g)}<div>
+  <h2>${g.title}</h2>
+  <p class="meta">${g.genre}</p><p class="when">${whenTxt(g)}</p>
+  <div class="bigrate">${stars(r)}${isDemo(g) ? '<span class="na">voto dimostrativo</span>' : ''}</div>
+  ${chbox(g)}<div class="review"><h4>La recensione di SguazzaTV</h4><p>${g.review || 'Dato dimostrativo: la recensione verrà scritta da SguazzaTV.'}</p></div>
+  <div class="links"><h4>Guarda su YouTube</h4><div class="btns">${btn(g.vod, 'VOD su SguazzaVOD', 'VOD: link da aggiungere')}${btn(g.video, 'Video sul canale principale', 'Video: link da aggiungere')}</div></div>
+  </div></div>`;
+  $('dlg').showModal();
+}
+function refresh() { renderDist(); renderGrid(); renderChallenges(); }
+$('q').addEventListener('input', renderGrid);
+$('demo').addEventListener('change', refresh);
+document.addEventListener('click', e => {
+  const rr = e.target.closest('[data-r]'); if (rr) { fr = fr === rr.dataset.r ? null : rr.dataset.r; renderDist(); renderGrid(); if (fr) $('libreria').scrollIntoView({behavior: 'smooth', block: 'start'}); return; }
+  const t = e.target.closest('[data-c]'); if (t) { fc = !fc; renderChips(); renderGrid(); return; }
+  const f = e.target.closest('[data-f]'); if (f) { fs = f.dataset.f; renderChips(); renderGrid(); return; }
+  const b = e.target.closest('[data-id]'); if (b) openGame(b.dataset.id);
+});
+$('x').onclick = () => $('dlg').close();
+$('dlg').addEventListener('click', e => { if (e.target === $('dlg')) $('dlg').close(); });
+fetch('data/games.json').then(r => r.json()).then(d => { GAMES = d; renderChallenges(); renderChips(); refresh(); }).catch(() => { $('empty').hidden = false; $('empty').textContent = 'Impossibile caricare data/games.json.'; });
+</script>
+</body>
+</html>
