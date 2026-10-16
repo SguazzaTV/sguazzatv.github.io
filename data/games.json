@@ -124,5 +124,25 @@
     ],
     "challenge": null,
     "cover": "/images/covers/b3c4687bdc36e2d715a9a20509305fd2.png"
+  },
+  {
+    "id": "paragnosia",
+    "title": "Paragnosia",
+    "genre": "Horror / Puzzle",
+    "hue": 260,
+    "motif": "",
+    "status": "completato",
+    "completed": "2026-03-19",
+    "rating": 3.5,
+    "review": "Paragnosia è uno di quei giochi che partono tranquilli, ma che nel giro di poco riescono a metterti addosso una bella ansia.\n\nL'idea è semplice: osservare, ricordare e individuare ciò che non torna. Sembra facile, ma basta distrarsi un attimo per iniziare a dubitare di tutto, anche delle cose che pensavi di conoscere.\n\nL'atmosfera è il suo punto forte: minimale, inquietante e capace di lavorarti più sulla testa che con i classici jumpscare. Il gameplay funziona bene e riesce a tenerti concentrato, anche se alla lunga diventa un po' ripetitivo.\n\nNon è un horror particolarmente spaventoso, ma sa creare la giusta tensione e intrattenere per tutta la sua durata.",
+    "vod": "",
+    "vods": [
+      {
+        "title": "Guarda su YouTube",
+        "url": "https://www.youtube.com/watch?v=am3vH331kvk"
+      }
+    ],
+    "challenge": null,
+    "cover": "/images/covers/c508aab83495219d522c0d20abab3178.png"
   }
 ]
