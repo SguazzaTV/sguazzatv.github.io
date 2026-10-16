@@ -75,14 +75,26 @@ collections:
         label: Recensione
         widget: text
         required: false
-      - name: vod
-        label: Link SguazzaVOD
+           - name: vod
+        label: Link VOD precedente
         widget: string
         required: false
-      - name: video
-        label: Link YouTube principale
-        widget: string
+        hint: "Campo precedente: lascialo invariato per i giochi già inseriti."
+
+      - name: vods
+        label: VOD e Run
+        widget: list
         required: false
+        collapsed: true
+        summary: "{{fields.title}}"
+        fields:
+          - name: title
+            label: Nome VOD o Run
+            widget: string
+            hint: "Esempio: Prima run, Modalità Follia, Playlist completa"
+          - name: url
+            label: Link YouTube
+            widget: string
       - name: challenge
         label: Challenge
         widget: object
