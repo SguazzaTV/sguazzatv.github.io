@@ -80,17 +80,14 @@ collections:
         widget: string
         required: false
         hint: "Campo precedente: lascialo invariato per i giochi già inseriti."
-      - name: vods
+            - name: vods
         label: VOD e Run
         widget: list
         required: false
-        collapsed: true
-        summary: "{{fields.title}}"
         fields:
           - name: title
-            label: Nome VOD o Run
+            label: Nome VOD
             widget: string
-           hint: "Esempio: Prima run, Modalità Follia, Playlist completa"
           - name: url
             label: Link YouTube
             widget: string
