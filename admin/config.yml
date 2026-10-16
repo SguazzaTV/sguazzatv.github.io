@@ -91,7 +91,7 @@ collections:
           - name: title
             label: Nome VOD o Run
             widget: string
-            hint: "Esempio: Prima run, Modalità Follia, Playlist completa"
+           hint: "Esempio: Prima run, Modalità Follia, Playlist completa"
           - name: url
             label: Link YouTube
             widget: string
