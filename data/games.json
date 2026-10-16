@@ -55,16 +55,17 @@
   {
     "id": "alien-isolation",
     "title": "Alien: Isolation",
-    "genre": "Horror",
+    "genre": "Horror / Survival",
     "hue": 160,
     "motif": "scan",
     "status": "completato",
-    "completed": null,
+    "completed": "2026-03-13",
+    "rating": 4.5,
+    "review": "Alien: Isolation è uno dei survival horror più riusciti che abbia giocato. L'atmosfera è incredibile, la tensione è costante e lo Xenomorfo riesce a metterti pressione anche quando apparentemente non sta succedendo nulla.\n\nLa cosa che ho apprezzato di più è proprio il senso di vulnerabilità: non sei tu a dare la caccia al mostro, è lui che dà la caccia a te.\n\nUn'esperienza che consiglio assolutamente agli amanti dell'horror.",
+    "vod": "https://www.youtube.com/playlist?list=PLPfp9GuGymH03aZ4pRjQppNbAZVGP2b3E",
+    "video": "",
     "challenge": null,
-    "rating": null,
-    "review": null,
-    "vod": null,
-    "video": null
+    "cover": "/images/covers/458443_IGDB-144x192.jpg"
   },
   {
     "id": "silent-hill-townfall",
