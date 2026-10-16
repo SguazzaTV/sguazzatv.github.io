@@ -21,13 +21,16 @@ collections:
         label: ID univoco
         widget: string
         hint: "Esempio: resident-evil-requiem. Non usare spazi."
+
       - name: title
         label: Titolo del gioco
         widget: string
+
       - name: genre
         label: Genere
         widget: string
         required: false
+
       - name: hue
         label: Colore provvisorio
         widget: number
@@ -36,11 +39,13 @@ collections:
         max: 360
         default: 260
         required: false
+
       - name: motif
         label: Simbolo provvisorio
         widget: select
         options: [ring, flame, cross, scan, fog]
         required: false
+
       - name: status
         label: Stato del gioco
         widget: select
@@ -49,6 +54,7 @@ collections:
           - {label: In corso, value: in_corso}
           - {label: Abbandonato, value: abbandonato}
         required: false
+
       - name: completed
         label: Data di completamento
         widget: datetime
@@ -56,6 +62,7 @@ collections:
         time_format: false
         format: YYYY-MM-DD
         required: false
+
       - name: rating
         label: Voto
         widget: select
@@ -71,16 +78,19 @@ collections:
           - {label: "1 stella", value: 1}
           - {label: "0,5 stelle", value: 0.5}
         required: false
+
       - name: review
         label: Recensione
         widget: text
         required: false
-           - name: vod
+
+      - name: vod
         label: Link VOD precedente
         widget: string
         required: false
         hint: "Campo precedente: lascialo invariato per i giochi già inseriti."
-            - name: vods
+
+      - name: vods
         label: VOD e Run
         widget: list
         required: false
@@ -91,6 +101,7 @@ collections:
           - name: url
             label: Link YouTube
             widget: string
+
       - name: challenge
         label: Challenge
         widget: object
@@ -107,6 +118,7 @@ collections:
               - {label: In corso, value: in_corso}
               - {label: Fallita, value: fallita}
             required: false
+
       - name: cover
         label: Copertina
         widget: image
