@@ -81,7 +81,19 @@ section{padding:26px 0 8px}
 .cv.has-cover{background:#100c1a}
 .cv.has-cover::before{display:none}
 .cv .cover-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;display:block}
-.cv.has-cover .g,.cv.has-cover .t{display:none}
+.cv.has-cover .t{display:none}
+
+.cv.has-cover .g{
+  display:inline-block;
+  align-self:flex-start;
+  z-index:2;
+  color:#fff;
+  font-size:.72rem;
+  font-weight:600;
+  background:rgba(0,0,0,.7);
+  padding:4px 8px;
+  border-radius:6px;
+}
 
 .badges{position:absolute;top:10px;left:10px;z-index:2;display:flex;flex-direction:column;align-items:flex-start;gap:5px}
 .badge{font:800 .7rem "Segoe UI",sans-serif;padding:3px 10px;border-radius:99px;background:rgba(11,8,19,.88);border:1px solid currentColor}
@@ -350,7 +362,10 @@ const cover = g => {
         <span class="g">${escapeHTML(g.genre || '')}</span>
         <span class="t">${escapeHTML(g.title)}</span>
       </div>
-      ${badges}
+     
+      <span class="g">${escapeHTML(g.genre || '')}</span>
+    
+ ${badges}
     </div>`;
   }
 
