@@ -1,0 +1,82 @@
+[
+  {
+    "id": "elden-ring-rl1",
+    "title": "Elden Ring",
+    "genre": "Action RPG",
+    "hue": 38,
+    "motif": "ring",
+    "status": null,
+    "completed": null,
+    "challenge": {
+      "label": "RL1",
+      "big": "RL1",
+      "rule": "Completare il gioco restando a livello 1.",
+      "status": null
+    },
+    "rating": null,
+    "review": null,
+    "vod": null,
+    "video": null
+  },
+  {
+    "id": "dark-souls-remastered-no-death",
+    "title": "Dark Souls Remastered",
+    "genre": "Action RPG",
+    "hue": 16,
+    "motif": "flame",
+    "status": null,
+    "completed": null,
+    "challenge": {
+      "label": "No Death",
+      "big": "0 DEATH",
+      "rule": "Completare il gioco senza mai morire.",
+      "status": null
+    },
+    "rating": null,
+    "review": null,
+    "vod": null,
+    "video": null
+  },
+  {
+    "id": "resident-evil-requiem",
+    "title": "Resident Evil Requiem",
+    "genre": "Horror",
+    "hue": 350,
+    "motif": "cross",
+    "status": "completato",
+    "completed": null,
+    "challenge": null,
+    "rating": null,
+    "review": null,
+    "vod": null,
+    "video": null
+  },
+  {
+    "id": "alien-isolation",
+    "title": "Alien: Isolation",
+    "genre": "Horror",
+    "hue": 160,
+    "motif": "scan",
+    "status": "completato",
+    "completed": null,
+    "challenge": null,
+    "rating": null,
+    "review": null,
+    "vod": null,
+    "video": null
+  },
+  {
+    "id": "silent-hill-townfall",
+    "title": "Silent Hill: Townfall",
+    "genre": "Horror",
+    "hue": 215,
+    "motif": "fog",
+    "status": "completato",
+    "completed": null,
+    "challenge": null,
+    "rating": null,
+    "review": null,
+    "vod": null,
+    "video": null
+  }
+]
