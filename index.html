@@ -24,7 +24,6 @@ nav a.l{color:var(--mute);text-decoration:none;font-size:.92rem}nav a.l:hover{co
 .hero h1{font-size:clamp(2rem,5vw,3.6rem);max-width:13ch}
 .hero h1 em{font-style:normal;color:var(--v2);text-shadow:0 0 28px rgba(168,85,247,.55)}
 .hero p{color:var(--mute);margin:12px 0 0;max-width:48ch}
-.demo-note{display:inline-block;margin-top:14px;padding:5px 12px;border:1px dashed var(--v);border-radius:99px;font-size:.8rem;color:var(--lilac)}
 .side{display:grid;gap:10px}
 .dist{display:grid;grid-template-columns:repeat(5,1fr);gap:8px}
 .rt{display:flex;flex-direction:column;align-items:center;gap:2px;padding:8px 4px 7px;text-align:center;background:linear-gradient(160deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:10px;transition:transform .2s,border-color .2s,box-shadow .2s}
@@ -98,6 +97,7 @@ dialog[open]{animation:pop .22s ease-out}@keyframes pop{from{opacity:0;transform
 footer{border-top:1px solid var(--line);margin-top:30px;padding:22px 0 40px;color:var(--mute);font-size:.82rem}
 @media(max-width:760px){.hero{grid-template-columns:1fr}.dist{gap:5px}.rs{font-size:.58rem;letter-spacing:0}.rc{font-size:1.15rem}.rv{font-size:.58rem}.dl{grid-template-columns:1fr}.dl .cv{max-width:230px}.ch{grid-template-columns:110px 1fr}nav a.l.hide{display:none}.challenges{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+.ch .badges,.ch .ph,.ch .cv .t{display:none}
 </style>
 </head>
 <body>
@@ -110,7 +110,7 @@ footer{border-top:1px solid var(--line);margin-top:30px;padding:22px 0 40px;colo
 <div>
 <h1>Ogni gioco passato in <em>live</em></h1>
 <p>Cosa è stato finito, cosa è ancora in corso e quali sfide hanno messo alla prova la chat.</p>
-<span class="demo-note">Prototipo: voti, recensioni, link e alcuni stati sono dati dimostrativi</span>
+
 </div>
 <div class="side"><div class="dist" id="dist" aria-label="Distribuzione dei voti"></div></div>
 </header>
@@ -126,7 +126,7 @@ footer{border-top:1px solid var(--line);margin-top:30px;padding:22px 0 40px;colo
 <input id="q" type="search" placeholder="Cerca un gioco" aria-label="Cerca per nome">
 <div class="chips" id="chips"></div>
 
-<label class="switch"><input type="checkbox" id="demo" checked> Mostra dati dimostrativi</label>
+
 </div>
 <div class="grid" id="grid"></div>
 <p class="empty" id="empty" hidden>Nessun gioco corrisponde ai filtri. Prova a cambiare la ricerca.</p>
@@ -140,12 +140,8 @@ footer{border-top:1px solid var(--line);margin-top:30px;padding:22px 0 40px;colo
 
 <script>
 let GAMES = [];
-// Voti DIMOSTRATIVI solo per mostrare il design: non sono opinioni di SguazzaTV.
-const DEMO = {"resident-evil-requiem":4,"alien-isolation":5,"silent-hill-townfall":3,"elden-ring-rl1":5,"dark-souls-remastered-no-death":4};
 const LABEL = {completato:"Completato",in_corso:"In corso",abbandonato:"Abbandonato"};
 const CLAB = {conclusa:"Challenge conclusa",in_corso:"Challenge in corso",fallita:"Challenge fallita"};
-// Stati DIMOSTRATIVI solo per mostrare il design (completato + challenge): non sono dati reali di SguazzaTV.
-const DEMO_ST = {"elden-ring-rl1":{status:"completato",ch:"conclusa"},"dark-souls-remastered-no-death":{status:"in_corso",ch:"in_corso"}};
 const MOTIF = {
  ring:'<svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="38"/><circle cx="50" cy="50" r="26"/><path d="M50 8v84M8 50h84" opacity=".5"/></svg>',
  flame:'<svg viewBox="0 0 100 100"><path d="M50 8c8 20 28 28 28 52a28 28 0 0 1-56 0c0-14 8-20 14-30 2 10 8 12 10 14C46 34 44 22 50 8z"/></svg>',
@@ -154,22 +150,19 @@ const MOTIF = {
  fog:'<svg viewBox="0 0 100 100"><path d="M10 35h80M20 50h70M10 65h80M25 80h60"/></svg>'};
 const $ = id => document.getElementById(id);
 let fs = '', fc = false, fr = null;
-const rate = g => g.rating ?? ($('demo').checked ? DEMO[g.id] ?? null : null);
-const isDemo = g => g.rating == null && rate(g) != null;
-const D = g => $('demo').checked ? DEMO_ST[g.id] : null;
-const st = g => g.status ?? D(g)?.status ?? null;
-const cs = g => g.challenge ? (g.challenge.status ?? D(g)?.ch ?? null) : null;
-const stDemo = g => g.status == null && st(g) != null;
+const rate = g => g.rating ?? null;
+const st = g => g.status ?? null;
+const cs = g => g.challenge ? (g.challenge.status ?? null) : null;
 const dtxt = d => new Date(d + 'T12:00:00').toLocaleDateString('it-IT', {day:'numeric', month:'long', year:'numeric'});
-const whenTxt = g => { const s = st(g), dm = stDemo(g) ? ' (stato dimostrativo)' : ''; if (s === 'completato') return (g.completed ? 'Completato il ' + dtxt(g.completed) : 'Completato · data non disponibile') + dm; if (s === 'in_corso') return 'In corso' + dm; if (s === 'abbandonato') return 'Abbandonato' + dm; return 'Stato da definire'; };
-const chbox = g => { const c = g.challenge; if (!c) return ''; const s = cs(g); return `<div class="chbox"><b>Challenge ${c.label}</b><br>${c.rule || ''}<br>${s ? CLAB[s] + (c.status == null ? ' (esito dimostrativo)' : '') : 'Esito da definire'}</div>`; };
+const whenTxt = g => { const s = st(g), dm = ''; if (s === 'completato') return (g.completed ? 'Completato il ' + dtxt(g.completed) : 'Completato · data non disponibile') + dm; if (s === 'in_corso') return 'In corso' + dm; if (s === 'abbandonato') return 'Abbandonato' + dm; return 'Stato da definire'; };
+const chbox = g => { const c = g.challenge; if (!c) return ''; const s = cs(g); return `<div class="chbox"><b>Challenge ${c.label}</b><br>${c.rule || ''}<br>${s ? CLAB[s] : 'Esito da definire'}</div>`; };
 const star = n => [1,2,3,4,5].map(i => n >= i ? '<b class="f">★</b>' : n >= i - .5 ? '<b class="h">★</b>' : '<b class="e">★</b>').join('');
 const stars = n => n == null ? '<span class="na">Voto da assegnare</span>' : '<span class="stars" aria-label="' + String(n).replace('.', ',') + ' stelle su 5">' + star(n) + '</span>';
 const cover = g => { const s = st(g), c = g.challenge; return `<div class="cv" style="--h:${g.hue}"><div class="badges">${s ? `<span class="badge s-${s}">${LABEL[s]}</span>` : '<span class="badge na">Stato da definire</span>'}${c ? `<span class="badge c">Challenge ${c.label}</span>` : ''}</div><span class="ph">Copertina temporanea</span>${MOTIF[g.motif] || ''}<span class="g">${g.genre}</span><span class="t">${g.title}</span></div>`; };
 
 function renderChallenges() {
   $('challenges').innerHTML = GAMES.filter(g => g.challenge).map(g => { const c = g.challenge, s = cs(g);
-    return `<button class="ch" data-id="${g.id}" data-big="${c.big || ''}" style="--h:${g.hue}">${cover(g)}<div class="tx"><span class="rule">${c.label}</span><h3>${g.title}</h3><p>${c.rule || ''}</p><span class="pend">${s ? CLAB[s] + (c.status == null ? ' (demo)' : '') : 'Esito da definire'}</span></div></button>`; }).join('');
+    return `<button class="ch" data-id="${g.id}" data-big="${c.big || ''}" style="--h:${g.hue}">${cover(g)}<div class="tx"><span class="rule">${c.label}</span><h3>${g.title}</h3><p>${c.rule || ''}</p><span class="pend">${s ? CLAB[s] : 'Esito da definire'}</span></div></button>`; }).join('');
 }
 function renderDist() {
   const rs = GAMES.map(rate), steps = [5,4.5,4,3.5,3,2.5,2,1.5,1,.5];
@@ -194,15 +187,14 @@ function openGame(id) {
   $('dbody').innerHTML = `<div class="dl">${cover(g)}<div>
   <h2>${g.title}</h2>
   <p class="meta">${g.genre}</p><p class="when">${whenTxt(g)}</p>
-  <div class="bigrate">${stars(r)}${isDemo(g) ? '<span class="na">voto dimostrativo</span>' : ''}</div>
-  ${chbox(g)}<div class="review"><h4>La recensione di SguazzaTV</h4><p>${g.review || 'Dato dimostrativo: la recensione verrà scritta da SguazzaTV.'}</p></div>
+  <div class="bigrate">${stars(r)}</div>
+  ${chbox(g)}<div class="review"><h4>La recensione di SguazzaTV</h4><p>${g.review || 'Recensione in arrivo.'}</p></div>
   <div class="links"><h4>Guarda su YouTube</h4><div class="btns">${btn(g.vod, 'VOD su SguazzaVOD', 'VOD: link da aggiungere')}${btn(g.video, 'Video sul canale principale', 'Video: link da aggiungere')}</div></div>
   </div></div>`;
   $('dlg').showModal();
 }
 function refresh() { renderDist(); renderGrid(); renderChallenges(); }
 $('q').addEventListener('input', renderGrid);
-$('demo').addEventListener('change', refresh);
 document.addEventListener('click', e => {
   const rr = e.target.closest('[data-r]'); if (rr) { fr = fr === rr.dataset.r ? null : rr.dataset.r; renderDist(); renderGrid(); if (fr) $('libreria').scrollIntoView({behavior: 'smooth', block: 'start'}); return; }
   const t = e.target.closest('[data-c]'); if (t) { fc = !fc; renderChips(); renderGrid(); return; }
