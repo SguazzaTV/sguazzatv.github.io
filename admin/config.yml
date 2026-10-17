@@ -46,11 +46,12 @@ collections:
         options: [ring, flame, cross, scan, fog]
         required: false
 
-      - name: status
+            - name: status
         label: Stato del gioco
         widget: select
         options:
           - {label: Completato, value: completato}
+          - {label: Completato offline, value: completato_offline}
           - {label: In corso, value: in_corso}
           - {label: Abbandonato, value: abbandonato}
         required: false
