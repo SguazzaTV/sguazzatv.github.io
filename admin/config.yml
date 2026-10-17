@@ -46,7 +46,7 @@ collections:
         options: [ring, flame, cross, scan, fog]
         required: false
 
-            - name: status
+      - name: status
         label: Stato del gioco
         widget: select
         options:
