@@ -293,19 +293,25 @@ const dtxt = d => {
   });
 };
 
+
 const whenTxt = g => {
   const s = st(g);
 
   if (s === 'completato' || s === 'completato_offline') {
-    return g.completed && dTxt(g.completed)
-  ? (s === 'completato_offline' ? 'Completato offline il ' : 'Completato il ') + dTxt(g.completed)
-  : (s === 'completato_offline' ? 'Completato offline · data non disponibile' : 'Completato · data non disponibile');
+    const data = dtxt(g.completed);
+    const offline = s === 'completato_offline';
+
+    return data
+      ? (offline ? 'Completato offline il ' : 'Completato il ') + data
+      : (offline ? 'Completato offline · data non disponibile' : 'Completato · data non disponibile');
   }
 
   if (s === 'in_corso') return 'In corso';
   if (s === 'abbandonato') return 'Abbandonato';
+
   return 'Stato da definire';
 };
+
 
 const chbox = g => {
   const c = challenge(g);
