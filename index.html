@@ -103,6 +103,7 @@ section{padding:26px 0 8px}
 .chbox{margin-top:14px;padding:12px 16px;border-radius:12px;border:1px solid var(--v);background:rgba(139,92,246,.1);font-size:.92rem;color:var(--mute)}
 .chbox b{font-family:var(--disp);color:var(--text)}
 .s-completato{color:var(--ok)}
+.s-completato_offline{color:var(--ok)}
 .s-challenge{color:var(--gold)}
 .s-corso{color:var(--lilac)}
 .s-abbandonato{color:var(--warn)}
@@ -207,6 +208,7 @@ let GAMES = [];
 
 const LABEL = {
   completato:"Completato",
+  completato_offline:"Completato offline",
   in_corso:"In corso",
   abbandonato:"Abbandonato"
 };
@@ -294,10 +296,10 @@ const dtxt = d => {
 const whenTxt = g => {
   const s = st(g);
 
-  if (s === 'completato') {
-    return g.completed && dtxt(g.completed)
-      ? 'Completato il ' + dtxt(g.completed)
-      : 'Completato · data non disponibile';
+  if (s === 'completato' || s === 'completato_offline') {
+    return g.completed && dTxt(g.completed)
+  ? (s === 'completato_offline' ? 'Completato offline il ' : 'Completato il ') + dTxt(g.completed)
+  : (s === 'completato_offline' ? 'Completato offline · data non disponibile' : 'Completato · data non disponibile');
   }
 
   if (s === 'in_corso') return 'In corso';
@@ -445,7 +447,9 @@ function renderGrid() {
 
   const list = GAMES.filter(g =>
     String(g.title || '').toLowerCase().includes(q) &&
-    (!fs || st(g) === fs) &&
+    (!fs || (fs === 'completato'
+  ? ['completato', 'completato_offline'].includes(st(g))
+  : st(g) === fs)) &&
     (!fc || challenge(g)) &&
     (fr == null || (
       fr === 'none'
