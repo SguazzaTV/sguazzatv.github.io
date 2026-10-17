@@ -117,5 +117,25 @@
     ],
     "challenge": null,
     "cover": "/images/covers/6joMuRs4K0ut724RJisCCeBPEr4mMeg-r8mA9K07lQz13t-2rm6kHjRlOfOBchzbCGgeZw46umg3lFKTkKWshsABr9mLlE42Ks3u31B3h-bVNEXrEqfKQtH7flx1ntN_hRb_-M7suYs8eAO54trrEu-nv_G9EW6de83AnVVRLp8LalRy88sMR2H4D6GeM-Bv.jpg"
+  },
+  {
+    "id": "no-im-not-a-human",
+    "title": "No, I'm Not a Human",
+    "genre": "Horror / Psicologico",
+    "hue": 260,
+    "motif": "",
+    "status": "completato",
+    "completed": "2026-04-08",
+    "rating": 4,
+    "review": "No, I'm Not a Human è uno di quei giochi che sembrano semplici, ma che nel giro di poco riescono a farti sguazzare nel dubbio totale.\n\nIl gameplay ruota attorno a una situazione particolare: osservare le persone e capire chi è davvero umano e chi no. Ogni dettaglio può diventare sospetto e ti ritrovi a mettere continuamente in discussione le tue decisioni.\n\nL'atmosfera è minimale, inquietante e funziona benissimo. Non punta sui jumpscare, ma su quella sensazione costante di non poterti fidare di nessuno.\n\nAlla lunga può diventare un po' ripetitivo, ma è proprio questa meccanica a farti ragionare su ogni scelta. Un'esperienza breve e particolare, che ti lascia più dubbi che risposte.",
+    "vod": "",
+    "vods": [
+      {
+        "title": "Run #01",
+        "url": "https://youtu.be/4j-HxN-LZYg?utm_source=chatgpt.com"
+      }
+    ],
+    "challenge": null,
+    "cover": "/images/covers/HJivugykAKOEbl8QlC6O9wrGyz2SJ1MgLOx1alZXXyixa2vdNfiTPTcONEKsXrH-miI4Te34F9mK-tJuoxj2BHdewqo6iMmKWW4qbRsttmmjtYgaP2WsWuTU5hJ4cWWL7vc3-for_55sCMKw2UYTs3rXme3a88PVYqWXiF5mCFqBYpHH9WvYm_3bG7LbWWp0.jpg"
   }
 ]
