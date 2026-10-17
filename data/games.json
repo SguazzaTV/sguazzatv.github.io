@@ -144,5 +144,25 @@
     ],
     "challenge": null,
     "cover": "/images/covers/c508aab83495219d522c0d20abab3178.png"
+  },
+  {
+    "id": "crimson-desert",
+    "title": "Crimson Desert",
+    "genre": "Action / Open World / Adventure",
+    "hue": 260,
+    "motif": "flame",
+    "status": "completato_offline",
+    "completed": "",
+    "rating": 4,
+    "review": "Crimson Desert è uno di quei giochi che inizi pensando di trovarti davanti al solito open world, ma che riesce a sorprenderti già dalle prime ore.\n\nIl suo punto forte è sicuramente il gameplay: combattimenti pesanti e soddisfacenti, tantissime attività e un mondo enorme che ti spinge continuamente a esplorare. Mi è piaciuto soprattutto il fatto che il gioco non ti prenda per mano, lasciandoti scoprire le cose da solo.\n\nLa storia, invece, non mi ha convinto completamente. Alcuni momenti funzionano, altri risultano meno coinvolgenti e il protagonista Kliff non brilla particolarmente per personalità.\n\nNonostante qualche calo di ritmo, è un'avventura capace di intrattenere per tantissime ore, soprattutto grazie alla libertà che offre.",
+    "vod": "",
+    "vods": [
+      {
+        "title": "Le mie avventure in live",
+        "url": "https://youtube.com/playlist?list=PLPfp9GuGymH3y9LUIFHEPaCp3wYWbHjwC&si=iN1KWmi8sbd9ofzb"
+      }
+    ],
+    "challenge": null,
+    "cover": "/images/covers/cf2f1baf9a1d138c875870e0181fb370.jpg"
   }
 ]
