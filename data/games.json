@@ -164,5 +164,25 @@
     ],
     "challenge": null,
     "cover": "/images/covers/cf2f1baf9a1d138c875870e0181fb370.jpg"
+  },
+  {
+    "id": "youve-got-a-package",
+    "title": "You've Got a Package",
+    "genre": "Horror / Psicologico",
+    "hue": 260,
+    "motif": "",
+    "status": "completato",
+    "completed": "2026-02-04",
+    "rating": 3.5,
+    "review": "You've Got a Package è uno di quei giochi che partono tranquilli, ma che nel giro di poco riescono a farti entrare nella paranoia senza capire bene perché.\n\nInterpreti uno scrittore con il blocco creativo che inizia a ricevere strani pacchi. Da lì la situazione degenera tra piccoli eventi inquietanti, qualche jumpscare e soprattutto quella sensazione costante che ci sia qualcosa di sbagliato nella casa.\n\nÈ un'esperienza molto breve, dove il punto forte non è tanto il gameplay quanto l'atmosfera e il modo in cui riesce a metterti a disagio.\n\nIl problema è che finisce proprio quando inizi a entrarci dentro, lasciandoti con la sensazione di non aver capito fino in fondo cosa sia successo. Un'esperienza particolare, ma che difficilmente lascia il segno.",
+    "vod": "",
+    "vods": [
+      {
+        "title": "Video montato | Canale principale",
+        "url": "https://youtu.be/TJobOg7m7l4?si=Pl5oD3Kca-Z1TYjJ"
+      }
+    ],
+    "challenge": null,
+    "cover": "/images/covers/6joMuRs4K0ut724RJisCCeBPEr4mMeg-r8mA9K07lQz13t-2rm6kHjRlOfOBchzbCGgeZw46umg3lFKTkKWshsABr9mLlE42Ks3u31B3h-bVNEXrEqfKQtH7flx1ntN_hRb_-M7suYs8eAO54trrEu-nv_G9EW6de83AnVVRLp8LalRy88sMR2H4D6GeM-Bv.jpg"
   }
 ]
