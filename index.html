@@ -462,7 +462,7 @@ function renderGrid() {
         ? rate(g) == null
         : rate(g) === Number(fr)
     ))
-  );
+  ).reverse();
 
   $('grid').innerHTML = list.map(g =>
     `<button class="card" data-id="${escapeHTML(g.id)}">
