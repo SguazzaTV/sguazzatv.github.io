@@ -241,5 +241,20 @@
     "vods": [],
     "challenge": null,
     "cover": "/images/covers/be7bead5120bca065aaf0f24a41f2bd5.jpg"
+  },
+  {
+    "id": "plague-inc",
+    "title": "Plague Inc: Evolved",
+    "genre": "Strategia / Simulazione",
+    "hue": 260,
+    "motif": "",
+    "status": "completato_offline",
+    "completed": "2026-03-22",
+    "rating": 4,
+    "review": "Plague Inc. è uno di quei giochi strategici dove devi infettare tutto il mondo e poi sbucciarlo prima che la cura raggiunga il 100%.\n\nL'idea è semplice ma geniale: creare un virus e farlo diffondere in tutto il mondo senza farti sgamare. Sembra facile, ma appena inizi a giocare capisci che devi stare attento a tutto... evoluzioni, sintomi, cure... ogni scelta conta, e ogni virus è diverso!\n\nIl gameplay è tutto strategia: devi bilanciare bene diffusione e letalità. Se vai troppo forte subito, ti scoprono e ti sbucciano. Se vai troppo piano, non combini niente. Ed è proprio questo equilibrio che ti fa sguazzare di cervello.\n\nOgni partita è diversa: cambi virus, cambi strategia e ti ritrovi sempre a pensare “ok, questa volta la gioco meglio”... e puntualmente qualcosa va storto!\n\nQuando vedi che il mondo sta sviluppando la cura al 90% inizi a tiltare malissimo e sfondi tutto ahah.\n\nNon è un gioco super profondo a livello narrativo: le news sono carine e ci sono diversi achievement da sbloccare, però non ne ha davvero bisogno. Il loop di gameplay funziona e ti tiene incollato.",
+    "vod": "https://www.youtube.com/watch?v=wJRhWYzA_EE",
+    "vods": [],
+    "challenge": null,
+    "cover": "/images/covers/da8a8e9cbcc29f7a06600fc7b6ce72ba.jpg"
   }
 ]
