@@ -161,5 +161,25 @@
     ],
     "challenge": null,
     "cover": "/images/covers/d15feb8148aab9951a15575df23ca2c0.jpg"
+  },
+  {
+    "id": "supernatural",
+    "title": "Supernatural",
+    "genre": "Horror / Psicologico",
+    "hue": 260,
+    "motif": "",
+    "status": "completato",
+    "completed": "2026-04-11",
+    "rating": 3.5,
+    "review": "Supernatural è uno di quei giochi che parti pensando “vabbè, il solito horror”… e invece nel giro di poco inizi a sguazzare nell'ansietta, guardando ogni angolo della casa.\n\nIl gioco si basa sull'osservazione ed è guidato: non puoi non sapere cosa fare grazie al cane, forse lanci qualche madonna per il puzzle dei pupazzetti, ma per il resto è tutto fattibile.\n\nL'atmosfera funziona bene: è minimal, ma abbastanza mortacci tua da tenerti sempre sul chi vive. Il gioco punta sui jumpscare (credimi, il primo te lo ricorderai a vita, ahah), e si crea un'ottima tensione. Funziona!\n\nIl gameplay è diretto: osservi, agisci e vai avanti. I comandi vocali saranno anche belli, ma il mio inglese non è da madrelingua, quindi alla fine ho dovuto fare tutto manualmente.\n\nNel complesso è un'esperienza semplice ma efficace, perfetta se vuoi qualcosa da farti cagare addosso una sera.",
+    "vod": "",
+    "vods": [
+      {
+        "title": "Run Completa",
+        "url": "https://youtu.be/IHaTRtaUYic?utm_source=chatgpt.com"
+      }
+    ],
+    "challenge": null,
+    "cover": "/images/covers/422f4ba1b233c16aa0a98173180d35ea.jpg"
   }
 ]
