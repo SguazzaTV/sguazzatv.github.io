@@ -271,5 +271,30 @@
     "vods": [],
     "challenge": null,
     "cover": "/images/covers/2078750ea356ba9fd472655dec36c068.jpg"
+  },
+  {
+    "id": "dark-souls-remastered",
+    "title": "Dark Souls: Remastered",
+    "genre": "Soulslike / Action RPG",
+    "hue": 260,
+    "motif": "",
+    "status": "completato",
+    "completed": "2026-04-09",
+    "rating": 4.5,
+    "review": "Dark Souls: Remastered è uno di quei giochi che ti fanno capire subito che qui non si scherza. Il mondo di gioco è uno dei punti più forti: ogni zona è collegata in modo incredibile e quando inizi ad aprire scorciatoie e capire dove ti trovi urli davvero “ooohhh yeahhh”.\n\nLordran non sembra una mappa da videogioco, sembra un posto reale, enorme e completamente figo.\n\nIl combat è lento, pesante e punitivo. Non puoi fare il fenomeno e spammare tasti: qui ogni errore si paga. Devi imparare i pattern, gestire stamina e capire quando attaccare o schivare. E proprio per questo, quando finalmente sbucci un boss che ti bloccava da ore... godi il doppio.\n\nLa lore è raccontata in modo stranissimo: il gioco non ti spiega quasi nulla direttamente, e sei tu che devi mettere insieme i pezzi parlando con NPC, leggendo oggetti e cercando di capire cosa diavolo sia successo in questo mondo decadente. E questa cosa o la ami... o la odi.\n\nNon è perfetto: alcune zone sono invecchiate male, certi boss sono più frustranti che difficili e a volte il gioco sembra voler essere cattivo solo per il gusto di esserlo. Però nel complesso riesce comunque a creare un'esperienza che pochi altri giochi riescono anche solo ad avvicinare.",
+    "vod": "https://www.youtube.com/watch?v=7DZqN-tw5Yo",
+    "vods": [
+      {
+        "title": "Permadeath",
+        "url": "https://youtu.be/WJSNMmx2uSU?si=JUNnN8C6AFaco8og"
+      }
+    ],
+    "challenge": {
+      "label": "Dark Souls — Permadeath",
+      "big": "PERMADEATH",
+      "rule": "morte del personaggio = ricominciare la run da zero",
+      "status": "conclusa"
+    },
+    "cover": "/images/covers/fa09649961c5c38096ee815c1084b2f0.jpg"
   }
 ]
