@@ -137,5 +137,29 @@
     ],
     "challenge": null,
     "cover": "/images/covers/HJivugykAKOEbl8QlC6O9wrGyz2SJ1MgLOx1alZXXyixa2vdNfiTPTcONEKsXrH-miI4Te34F9mK-tJuoxj2BHdewqo6iMmKWW4qbRsttmmjtYgaP2WsWuTU5hJ4cWWL7vc3-for_55sCMKw2UYTs3rXme3a88PVYqWXiF5mCFqBYpHH9WvYm_3bG7LbWWp0.jpg"
+  },
+  {
+    "id": "cuphead",
+    "title": "Cuphead",
+    "genre": "Run and Gun / Boss Rush",
+    "hue": 260,
+    "motif": "",
+    "status": "completato",
+    "completed": "2026-04-07",
+    "rating": null,
+    "review": "Cuphead è uno di quei giochi che parti dicendo “vabbè, cartonesco easy”… e dopo cinque minuti hai già capito che ti farà sbuciare male più e più volte.\n\nLo stile grafico è fuori di testa: sembra davvero un cartone animato degli anni ’30, con animazioni e musiche bellissime. Ma il vero protagonista è il gameplay: boss fight, riflessi, concentrazione e tanta pazienza.\n\nOgni errore lo paghi subito, ma quando finalmente impari i pattern e riesci a battere un boss, la soddisfazione è enorme.\n\nHo completato sia la modalità Normale che quella Esperto, e posso dire che è uno di quei giochi che ti fanno impazzire, ma che alla fine ti ripagano di ogni tentativo.",
+    "vod": "",
+    "vods": [
+      {
+        "title": "Run Normale",
+        "url": "https://youtu.be/8OJJlKxD6rY?si=_bU5PQ18aSUSUCYM"
+      },
+      {
+        "title": "Run Esperto",
+        "url": "https://youtu.be/xKK-zDIWg5U?si=-3-F_DTJUnYUx_kZ"
+      }
+    ],
+    "challenge": null,
+    "cover": "/images/covers/d15feb8148aab9951a15575df23ca2c0.jpg"
   }
 ]
