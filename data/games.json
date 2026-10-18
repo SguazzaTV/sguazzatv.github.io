@@ -300,5 +300,20 @@
       "status": "conclusa"
     },
     "cover": "/images/covers/fa09649961c5c38096ee815c1084b2f0.jpg"
+  },
+  {
+    "id": "the-last-of-us-part-1",
+    "title": "The Last of Us Part I",
+    "genre": "Action / Avventura narrativa / Survival Horror",
+    "hue": 260,
+    "motif": "",
+    "status": "completato",
+    "completed": "2026-05-12",
+    "rating": 5,
+    "review": "The Last of Us Part I non è un gioco... è IL gioco. Parti pensando di trovarti davanti al classico survival con gli zombie, ma dopo poco ti ritrovi immerso in una storia che ti distrugge emotivamente.\n\nIl rapporto tra Joel ed Ellie è il cuore dell'esperienza: i loro dialoghi, i momenti tranquilli e tutto quello che affrontano insieme ti fanno affezionare sempre di più. Anche il gameplay funziona bene, soprattutto a difficoltà Difficile, dove devi gestire attentamente ogni risorsa.\n\nQualche sezione diventa ripetitiva e i pochi doppiatori dei nemici umani a volte rovinano l'immersione. Ma sono difetti che passano in secondo piano davanti a una storia così coinvolgente.\n\nUn'esperienza che non ti sbuccia solo i personaggi... sbuccia pure te.",
+    "vod": "youtube.com/watch?is=-u65bVf4jC3vAUlp&v=ARh0unvi9V4&feature=youtu.be",
+    "vods": [],
+    "challenge": null,
+    "cover": "/images/covers/c840da4d342a29827b6c907c03a76f80.jpg"
   }
 ]
