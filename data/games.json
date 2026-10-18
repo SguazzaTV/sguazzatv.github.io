@@ -211,5 +211,20 @@
     "vods": [],
     "challenge": null,
     "cover": "/images/covers/library_capsule.jpg"
+  },
+  {
+    "id": "pragmata",
+    "title": "Pragmata",
+    "genre": "Action / Avventura",
+    "hue": 260,
+    "motif": "",
+    "status": "completato",
+    "completed": "2026-04-22",
+    "rating": 4.5,
+    "review": "Pragmata è uno di quei giochi che appena ho visto che c'era Capcom dietro ho pensato “ok, questo si prova al day one”… e infatti non me ne sono minimamente pentito.\n\nL'ambientazione è super particolare: futuristica, un po' malinconica, con quel vibe che ti fa dire “ok, qui c'è qualcosa sotto”. Non ti prende per mano, ma ti lascia capire le cose piano piano e questa cosa funziona davvero bene.\n\nIl rapporto tra Diana e Hugh è uno dei punti più forti: non so come, ma il gioco riesce quasi a farti venire voglia di proteggere Diana a tutti i costi! Non è solo gameplay, c'è anche una componente emotiva che regge bene e ti spinge ad andare avanti.\n\nIl gameplay è interessante perché prova a fare qualcosa di diverso: non è il classico sparatutto, ma un mix tra azione e strategia. Devi sparare, muoverti per non farti colpire e allo stesso tempo hackerare. Nel late game devi usare Diana per sbarazzarti delle parti corrotte... e lì il gioco inizia a spingere di più. All'inizio può sembrare un po' strano, ma quando ci prendi la mano inizi a sguazzare bene.\n\nNon è perfetto: ci sono momenti in cui il ritmo cala un po', e avrei voluto più varietà nei nemici... alla fine sono spesso gli stessi, solo in situazioni diverse. Però nel complesso il gioco spinge forte e riesce a tenerti incollato.",
+    "vod": "https://www.youtube.com/watch?v=2OPnGL9DJnQ",
+    "vods": [],
+    "challenge": null,
+    "cover": "/images/covers/5fadc5ce288b308f686e8d7b11a8ff39.jpg"
   }
 ]
