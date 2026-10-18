@@ -315,5 +315,20 @@
     "vods": [],
     "challenge": null,
     "cover": "/images/covers/c840da4d342a29827b6c907c03a76f80.jpg"
+  },
+  {
+    "id": "the-last-of-us-part-2",
+    "title": "The Last of Us Part II",
+    "genre": "Action / Avventura narrativa / Survival Horror",
+    "hue": 260,
+    "motif": "",
+    "status": "completato",
+    "completed": "2026-05-21",
+    "rating": 5,
+    "review": "The Last of Us Part II non si limita a continuare il primo capitolo... prende tutto quello che hai vissuto e te lo rigira contro nel modo più brutale possibile.\n\nLa storia ti fa sguazzare tra rabbia, vendetta e senso di vuoto. Il rapporto tra i personaggi è devastante e il gioco ti mette continuamente davanti a situazioni in cui non sai più chi abbia ragione. Emotivamente è un'esperienza che ti lascia il segno.\n\nIl gameplay è migliorato tantissimo: combattimenti più fluidi e violenti, stealth soddisfacente e un'IA che cerca di accerchiarti e metterti sotto pressione. Anche le animazioni e i dettagli sono impressionanti.\n\nNon è perfetto: alcune skin dei nemici si ripetono troppo e certi avversari sopravvivono a colpi che dovrebbero abbatterli, rovinando un po' il realismo.\n\nMa nel complesso è una delle esperienze più forti che abbia mai giocato. Non ti sbuccia solo emotivamente... ti lascia proprio il vuoto dentro.",
+    "vod": "youtube.com/watch?v=DDom4Kqittw&feature=youtu.be",
+    "vods": [],
+    "challenge": null,
+    "cover": "/images/covers/3a96a1164364c063f40ce33aaf971783.jpg"
   }
 ]
