@@ -181,5 +181,20 @@
     ],
     "challenge": null,
     "cover": "/images/covers/422f4ba1b233c16aa0a98173180d35ea.jpg"
+  },
+  {
+    "id": "minecraft-dungeons",
+    "title": "Minecraft Dungeons",
+    "genre": "Action RPG / Dungeon Crawler",
+    "hue": 260,
+    "motif": "",
+    "status": "completato",
+    "completed": "2026-04-15",
+    "rating": 4,
+    "review": "Minecraft Dungeons è uno di quei giochi carucci da giocare in compagnia. Scordati di giocarlo da solo, perché perde la metà del divertimento. Io l'ho affrontato con Pierluigi, il classico giocatore che dice “faccio tutto io”. Spoiler: io alla fine ho giocato a Rianima il tuo compagno simulator.\n\nIl gioco è un dungeon crawler molto semplice: entri, meni tutto quello che si muove, looti roba e vai avanti. Non è complicato, ma è proprio lì che funziona: è immediato e ti prende subito.\n\nIl combat è basilare ma soddisfacente: niente robe troppo tecniche, però tra armi, abilità e build riesci comunque a divertirti e a trovare il tuo modo di giocare. Non devi pensare troppo... devi solo sbucciare tutto quello che ti arriva davanti.\n\nLato contenuti è abbastanza lineare: livelli, nemici, boss e via. Non ha una profondità enorme e, dopo un po', può diventare ripetitivo, soprattutto se giochi da solo.\n\nDove però dà il meglio è in compagnia!\n\nNel complesso è un gioco leggero, perfetto per staccare e giocare senza stress.",
+    "vod": "https://www.youtube.com/watch?v=A6O5z2hy5WI",
+    "vods": [],
+    "challenge": null,
+    "cover": "/images/covers/83e727ba74a653775d25a777ab709211.jpg"
   }
 ]
