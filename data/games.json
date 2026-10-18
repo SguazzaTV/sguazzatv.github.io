@@ -256,5 +256,20 @@
     "vods": [],
     "challenge": null,
     "cover": "/images/covers/da8a8e9cbcc29f7a06600fc7b6ce72ba.jpg"
+  },
+  {
+    "id": "detroit-become-human",
+    "title": "Detroit: Become Human",
+    "genre": "Avventura narrativa / Scelte",
+    "hue": 260,
+    "motif": "",
+    "status": "completato",
+    "completed": "2026-05-01",
+    "rating": 5,
+    "review": "Detroit: Become Human è uno di quei giochi dove non stai giocando... stai prendendo decisioni che ti fanno dire “ok, forse ho fatto una cazzata”.\n\nIl gioco è basato sulle scelte: segui tre personaggi diversi e ogni decisione cambia completamente il corso della storia. Non è il classico gioco lineare, qui ogni run può essere diversa e questo ti fa sguazzare nelle decisioni senza mai essere davvero sicuro.\n\nSe ti è piaciuto il senso del dubbio di No, I'm Not a Human, qui lo ritrovi in versione narrativa: non hai l'ansia del mostro, ma quella di scegliere male.\n\nLa storia è il punto forte: parla di androidi, umanità e scelte morali. A volte è anche un po' pesante, ma funziona perché coinvolge e ti fa riflettere. Perché diciamocela tutta: non è solo fantascienza... è qualcosa che, in un modo o nell'altro, non è nemmeno così lontano dalla realtà.\n\nIl gameplay è semplice: esplorazione, dialoghi e QTE (Quick Time Events, ovvero azioni rapide dove devi premere i tasti al momento giusto). Non è profondo come altri giochi più action tipo Crimson Desert, ma non è quello il punto: qui conta quello che decidi, non come giochi.\n\nRispetto ad altri giochi che ho portato, questo è meno “sguazzoso” lato gameplay, ma molto più coinvolgente mentalmente: sembra quasi di vedere un film più che giocare... e la storia davvero wow.",
+    "vod": "youtube.com/watch?utm_source=chatgpt.com&v=23sKRGAvRl0&feature=youtu.be",
+    "vods": [],
+    "challenge": null,
+    "cover": "/images/covers/2078750ea356ba9fd472655dec36c068.jpg"
   }
 ]
