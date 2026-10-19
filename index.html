@@ -150,6 +150,32 @@ nav a.l.hide{display:none}
 }
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 .ch .badges,.ch .ph,.ch .cv .t{display:none}
+  
+/* Uniforma le copertine della libreria */
+.grid .card .cv {
+  aspect-ratio: 2 / 3;
+  height: auto;
+  min-height: 0;
+  padding: 0;
+}
+
+.grid .card .cover-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.grid .card .cv.has-cover .g {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  margin: 0;
+  max-width: calc(100% - 20px);
+}
+
 </style>
 </head>
 <body>
