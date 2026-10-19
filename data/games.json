@@ -330,5 +330,20 @@
     "vods": [],
     "challenge": null,
     "cover": "/images/covers/3a96a1164364c063f40ce33aaf971783.jpg"
+  },
+  {
+    "id": "inside",
+    "title": "INSIDE",
+    "genre": "Puzzle, Platform, Avventura",
+    "hue": 260,
+    "motif": "",
+    "status": "completato",
+    "completed": "2026-05-22",
+    "rating": 3.5,
+    "review": "INSIDE è uno di quei giochi che si lascia scoprire in una sola run. Non ci sono dialoghi, spiegazioni o indicazioni: devi semplicemente andare avanti e cercare di capire cosa sta succedendo.\n\nIl gameplay è molto semplice, con enigmi ambientali, qualche sezione platform e tanta atmosfera. Nulla di particolarmente complicato, ma il ritmo funziona e non si ferma praticamente mai.\n\nL'ambientazione è sicuramente il suo punto forte: riesce a metterti addosso una sensazione costante di disagio e curiosità. Più vai avanti, più ti fai domande, ma le risposte non arrivano quasi mai.\n\nÈ uno di quei giochi che giochi una volta, basta e avanza. Però, per le poche ore che dura, riesce a tenerti incollato e a lasciarti qualcosa a cui pensare.",
+    "vod": "https://youtu.be/hneJ_umwtsE",
+    "vods": [],
+    "challenge": null,
+    "cover": "/images/covers/pasted-image-1792439127454.png"
   }
 ]
