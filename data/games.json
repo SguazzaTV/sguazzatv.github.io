@@ -554,5 +554,20 @@
     "vods": [],
     "challenge": null,
     "cover": "/images/covers/pasted-image-1792444676699.png"
+  },
+  {
+    "id": "inscryption",
+    "title": "Inscryption",
+    "genre": "Strategia, Carte, Horror",
+    "hue": 260,
+    "motif": "",
+    "status": "completato",
+    "completed": "2026-08-10",
+    "rating": 4.5,
+    "review": "Pensavo di iniziare un semplice gioco di carte, ma dopo poco mi sono reso conto che Inscryption era qualcosa di completamente diverso.\n\nAll'inizio ti ritrovi davanti a un tavolo, con qualche carta e un personaggio inquietante dall'altra parte. Il gameplay sembra semplice, ma quando inizi a scoprire le combinazioni e a costruire mazzi sempre più forti diventa davvero soddisfacente.\n\nLa cosa che mi ha colpito di più è che il gioco non rimane mai fermo. Ogni volta che pensi di aver capito come funziona, cambia completamente le carte in tavola. Anche l'atmosfera è fantastica: inquietante, misteriosa e capace di farti sentire che dietro quella partita si nasconda qualcosa di molto più grande.\n\nNon tutte le fasi mi hanno convinto allo stesso modo e alcuni cambiamenti spezzano un po' il ritmo, ma è proprio questa follia a renderlo speciale. Un'esperienza stranissima, piena di idee e difficile da dimenticare.",
+    "vod": "https://youtu.be/Cz1MW7DFw8g",
+    "vods": [],
+    "challenge": null,
+    "cover": "/images/covers/pasted-image-1792444759511.png"
   }
 ]
