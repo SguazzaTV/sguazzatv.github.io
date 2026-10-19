@@ -629,5 +629,20 @@
     "vods": [],
     "challenge": null,
     "cover": "/images/covers/pasted-image-1792445276845.png"
+  },
+  {
+    "id": "the-blood-of-dawnwalker",
+    "title": "The Blood of Dawnwalker",
+    "genre": "Action RPG, Fantasy, Open World",
+    "hue": 260,
+    "motif": "",
+    "status": "completato",
+    "completed": "2026-09-09",
+    "rating": null,
+    "review": "The Blood of Dawnwalker è un GDR che, nonostante diversi difetti, mi ha tenuto incollato grazie a una storia interessante, un ottimo doppiaggio e soprattutto delle missioni secondarie davvero ben fatte.\n\nLa cosa che ho apprezzato di più è il sistema dei 30 giorni. Il tempo avanza soltanto quando compi determinate azioni e questo ti costringe a scegliere come vivere la tua avventura, senza poter vedere necessariamente tutto. Anche la doppia natura di Coen, umano di giorno e vampiro di notte, rende l'esplorazione molto interessante.\n\nL'ambientazione è cupa e affascinante, ma il combattimento mi ha convinto meno. Il sistema direzionale e il parry possono dare soddisfazione, però il lock-on, alcuni bug e gli scontri contro più nemici risultano spesso frustranti.\n\nÈ un progetto ambizioso che avrebbe bisogno di maggiore rifinitura, ma i suoi difetti non mi hanno mai tolto la voglia di continuare. Per me è un 4/5, soprattutto per la libertà di scelta e per come riesce a farti sentire protagonista della tua storia.",
+    "vod": "https://youtu.be/0PhLZbJYxfo",
+    "vods": [],
+    "challenge": null,
+    "cover": "/images/covers/pasted-image-1792445388698.png"
   }
 ]
