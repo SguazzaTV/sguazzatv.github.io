@@ -11,16 +11,19 @@
 html{scroll-behavior:smooth;scroll-padding-top:68px}
 body{margin:0;background:radial-gradient(900px 420px at 85% -80px,#33196b 0,transparent 65%),radial-gradient(700px 400px at -10% 30%,#1c0f3a 0,transparent 60%),var(--bg);color:var(--text);font:16px/1.5 "Segoe UI",system-ui,sans-serif}
 h1,h2,h3{margin:0;font-family:var(--disp);letter-spacing:-.01em;line-height:1.05}
-a{color:var(--lilac)}button{font:inherit;color:inherit;cursor:pointer}
+a{color:var(--lilac)}
+button{font:inherit;color:inherit;cursor:pointer}
 :focus-visible{outline:2px solid var(--lilac);outline-offset:2px}
 .wrap{max-width:1180px;margin:0 auto;padding:0 20px}
 nav{position:sticky;top:0;z-index:5;backdrop-filter:blur(12px);background:rgba(11,8,19,.82);border-bottom:1px solid var(--line)}
 nav .wrap{display:flex;align-items:center;gap:22px;height:58px}
 .brand{display:flex;align-items:center;gap:10px;margin-right:auto;text-decoration:none;color:var(--text)}
 .mark{width:34px;height:34px;display:grid;place-items:center;font:900 1.15rem var(--disp);background:linear-gradient(135deg,var(--v),var(--v2));clip-path:polygon(50% 0,100% 25%,100% 75%,50% 100%,0 75%,0 25%);box-shadow:0 0 18px var(--v)}
-.brand b{font:900 1.05rem var(--disp)}.brand b span{color:var(--v2)}
+.brand b{font:900 1.05rem var(--disp)}
+.brand b span{color:var(--v2)}
 .brand small{display:block;color:var(--mute);font:500 .72rem "Segoe UI",sans-serif;margin-top:-2px}
-nav a.l{color:var(--mute);text-decoration:none;font-size:.92rem}nav a.l:hover{color:var(--text)}
+nav a.l{color:var(--mute);text-decoration:none;font-size:.92rem}
+nav a.l:hover{color:var(--text)}
 .hero{padding:30px 0 8px;display:grid;grid-template-columns:1fr 1.2fr;gap:28px;align-items:center}
 .hero h1{font-size:clamp(2rem,5vw,3.6rem);max-width:13ch}
 .hero h1 em{font-style:normal;color:var(--v2);text-shadow:0 0 28px rgba(168,85,247,.55)}
@@ -136,97 +139,112 @@ dialog[open]{animation:pop .22s ease-out}
 .btn.off{background:var(--panel2);border:1px dashed var(--line);color:var(--mute);font-weight:500}
 .btn svg{width:18px;height:18px;fill:currentColor}
 footer{border-top:1px solid var(--line);margin-top:30px;padding:22px 0 40px;color:var(--mute);font-size:.82rem}
+
 @media(max-width:760px){
-.hero{grid-template-columns:1fr}
-.dist{gap:5px}
-.rs{font-size:.58rem;letter-spacing:0}
-.rc{font-size:1.15rem}
-.rv{font-size:.58rem}
-.dl{grid-template-columns:1fr}
-.dl .cv{max-width:230px}
-.ch{grid-template-columns:110px 1fr}
-nav a.l.hide{display:none}
-.challenges{grid-template-columns:1fr}
+  .hero{grid-template-columns:1fr}
+  .dist{gap:5px}
+  .rs{font-size:.58rem;letter-spacing:0}
+  .rc{font-size:1.15rem}
+  .rv{font-size:.58rem}
+  .dl{grid-template-columns:1fr}
+  .dl .cv{max-width:230px}
+  .ch{grid-template-columns:110px 1fr}
+  nav a.l.hide{display:none}
+  .challenges{grid-template-columns:1fr}
 }
-@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+@media(prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important}
+}
 .ch .badges,.ch .ph,.ch .cv .t{display:none}
-  
-/* Uniforma le copertine della libreria */
+
+/* Uniforma il contenitore delle copertine nella libreria */
+.grid .card {
+  display: block;
+  min-width: 0;
+  width: 100%;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
 .grid .card .cv {
+  display: block;
+  position: relative;
+  width: 100%;
   aspect-ratio: 2 / 3;
   height: auto;
   min-height: 0;
   padding: 0;
+  overflow: hidden;
 }
 
-.grid .card .cover-img {
+.grid .card .cv .cover-img {
   position: absolute;
   inset: 0;
+  display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center;
 }
 
-.grid .card .cv.has-cover .g {
+.grid .card .cv.has-cover > .g {
   position: absolute;
   bottom: 10px;
   left: 10px;
   margin: 0;
   max-width: calc(100% - 20px);
 }
-
 </style>
 </head>
 <body>
 
 <nav><div class="wrap">
-<a class="brand" href="#top">
-<span class="mark">S</span>
-<span><b>Sguazza<span>TV</span></b><small>Game Library</small></span>
-</a>
-<a class="l hide" href="#challenge">Challenge</a>
-<a class="l" href="#libreria">Libreria</a>
+  <a class="brand" href="#top">
+    <span class="mark">S</span>
+    <span><b>Sguazza<span>TV</span></b><small>Game Library</small></span>
+  </a>
+  <a class="l hide" href="#challenge">Challenge</a>
+  <a class="l" href="#libreria">Libreria</a>
 </div></nav>
 
 <header class="wrap hero" id="top">
-<div>
-<h1>Ogni gioco passato in <em>live</em></h1>
-<p>Cosa è stato finito, cosa è ancora in corso e quali sfide hanno messo alla prova la chat.</p>
-</div>
-<div class="side">
-<div class="dist" id="dist" aria-label="Distribuzione dei voti"></div>
-</div>
+  <div>
+    <h1>Ogni gioco passato in <em>live</em></h1>
+    <p>Cosa è stato finito, cosa è ancora in corso e quali sfide hanno messo alla prova la chat.</p>
+  </div>
+  <div class="side">
+    <div class="dist" id="dist" aria-label="Distribuzione dei voti"></div>
+  </div>
 </header>
 
 <section id="challenge"><div class="wrap">
-<div class="head">
-<h2>Challenge</h2>
-<p>Le sfide che contano di più.</p>
-</div>
-<div class="challenges" id="challenges"></div>
+  <div class="head">
+    <h2>Challenge</h2>
+    <p>Le sfide che contano di più.</p>
+  </div>
+  <div class="challenges" id="challenges"></div>
 </div></section>
 
 <section id="libreria"><div class="wrap">
-<div class="head">
-<h2>Libreria</h2>
-<p>Cerca un gioco, filtra per stato o clicca un voto in alto.</p>
-</div>
-<div class="tools">
-<input id="q" type="search" placeholder="Cerca un gioco" aria-label="Cerca per nome">
-<div class="chips" id="chips"></div>
-</div>
-<div class="grid" id="grid"></div>
-<p class="empty" id="empty" hidden>Nessun gioco corrisponde ai filtri. Prova a cambiare la ricerca.</p>
+  <div class="head">
+    <h2>Libreria</h2>
+    <p>Cerca un gioco, filtra per stato o clicca un voto in alto.</p>
+  </div>
+  <div class="tools">
+    <input id="q" type="search" placeholder="Cerca un gioco" aria-label="Cerca per nome">
+    <div class="chips" id="chips"></div>
+  </div>
+  <div class="grid" id="grid"></div>
+  <p class="empty" id="empty" hidden>Nessun gioco corrisponde ai filtri. Prova a cambiare la ricerca.</p>
 </div></section>
 
 <footer>
-<div class="wrap">SguazzaTV Game Library · Le mie avventure videoludiche in live.</div>
+  <div class="wrap">SguazzaTV Game Library · Le mie avventure videoludiche in live.</div>
 </footer>
 
 <dialog id="dlg" aria-label="Dettaglio gioco">
-<button class="close" id="x" aria-label="Chiudi">✕</button>
-<div id="dbody"></div>
+  <button class="close" id="x" aria-label="Chiudi">✕</button>
+  <div id="dbody"></div>
 </dialog>
 
 <script>
@@ -319,7 +337,6 @@ const dtxt = d => {
   });
 };
 
-
 const whenTxt = g => {
   const s = st(g);
 
@@ -337,7 +354,6 @@ const whenTxt = g => {
 
   return 'Stato da definire';
 };
-
 
 const chbox = g => {
   const c = challenge(g);
@@ -396,10 +412,10 @@ const cover = g => {
         <span class="g">${escapeHTML(g.genre || '')}</span>
         <span class="t">${escapeHTML(g.title)}</span>
       </div>
-     
+
       <span class="g">${escapeHTML(g.genre || '')}</span>
-    
- ${badges}
+
+      ${badges}
     </div>`;
   }
 
@@ -480,8 +496,8 @@ function renderGrid() {
   const list = GAMES.filter(g =>
     String(g.title || '').toLowerCase().includes(q) &&
     (!fs || (fs === 'completato'
-  ? ['completato', 'completato_offline'].includes(st(g))
-  : st(g) === fs)) &&
+      ? ['completato', 'completato_offline'].includes(st(g))
+      : st(g) === fs)) &&
     (!fc || challenge(g)) &&
     (fr == null || (
       fr === 'none'
