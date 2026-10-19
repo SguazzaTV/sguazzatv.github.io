@@ -794,5 +794,20 @@
     "vods": [],
     "challenge": null,
     "cover": "/images/covers/pasted-image-1792447116741.png"
+  },
+  {
+    "id": "enshrouded",
+    "title": "Enshrouded",
+    "genre": "Survival, Action RPG, Open World, Crafting",
+    "hue": 260,
+    "motif": "",
+    "status": "in_corso",
+    "completed": "",
+    "rating": 4.5,
+    "review": "Enshrouded è uno di quei giochi in cui parti con l'idea di fare una missione e tre ore dopo ti ritrovi dall'altra parte della mappa a raccogliere materiali. E niente, la missione può aspettare, ahah.\n\nLa cosa che mi è piaciuta di più è sicuramente l'esplorazione. Il mondo è enorme, pieno di luoghi da scoprire e con quella nebbia che rende tutto ancora più misterioso. Anche la progressione mi ha preso parecchio: migliori l'equipaggiamento, sblocchi nuove abilità e hai continuamente qualcosa da fare.\n\nIl sistema di costruzione è davvero tanta roba, anche se personalmente ho preferito concentrarmi sull'avventura e sui combattimenti. Qualche attività alla lunga può diventare ripetitiva e la gestione dell'inventario non è sempre comodissima.\n\nNel complesso mi ha sorpreso. È uno di quei giochi in cui è facilissimo perdere la cognizione del tempo, soprattutto quando inizi a esplorare senza una meta precisa, semplicemente wow.",
+    "vod": "https://youtu.be/sbb7SxBJURU",
+    "vods": [],
+    "challenge": null,
+    "cover": "/images/covers/pasted-image-1792447173106.png"
   }
 ]
