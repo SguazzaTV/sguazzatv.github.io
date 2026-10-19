@@ -375,5 +375,20 @@
     "vods": [],
     "challenge": null,
     "cover": "/images/covers/pasted-image-1792439550228.png"
+  },
+  {
+    "id": "dark-souls-2-scholar-of-the-first-sin",
+    "title": "Dark Souls II: Scholar of the First Sin",
+    "genre": "Soulslike, Action RPG",
+    "hue": 260,
+    "motif": "",
+    "status": "completato",
+    "completed": "2026-06-15",
+    "rating": 4.5,
+    "review": "Dark Souls II: Scholar of the First Sin è uno di quei giochi che riesce a farti sclerare nelle situazioni più assurde, ma che alla fine ti lascia comunque dei bei ricordi.\n\nIl mondo di Drangleic è enorme, pieno di zone diverse e con un senso di avventura che ti spinge sempre a scoprire cosa c'è dietro la prossima porta. Il gameplay richiede pazienza, soprattutto quando il gioco decide di sommergerti di nemici o quando le hitbox sembrano avere una vita propria.\n\nI boss sono altalenanti: alcuni si dimenticano subito, mentre altri sono davvero memorabili. Nonostante i difetti, mi sono affezionato a Drangleic, a Majula e a tutte quelle zone che inizialmente odiavo. Un'esperienza che ti fa imprecare, ma che riesce comunque a conquistarti.",
+    "vod": "https://youtu.be/lIV8bX5hWGI",
+    "vods": [],
+    "challenge": null,
+    "cover": "/images/covers/pasted-image-1792439670701.png"
   }
 ]
