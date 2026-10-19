@@ -569,5 +569,20 @@
     "vods": [],
     "challenge": null,
     "cover": "/images/covers/pasted-image-1792444759511.png"
+  },
+  {
+    "id": "last-day-of-june",
+    "title": "Last Day of June",
+    "genre": "Puzzle, Avventura narrativa",
+    "hue": 260,
+    "motif": "",
+    "status": "completato",
+    "completed": "2026-08-20",
+    "rating": 4.5,
+    "review": "A volte non servono dialoghi o un gameplay complicato per raccontare una bella storia, e Last Day of June ne è la dimostrazione.\n\nÈ un gioco che riesce a trasmettere tantissime emozioni attraverso piccoli gesti, espressioni, immagini e soprattutto la musica. Il gameplay è semplice: esplori, risolvi piccoli enigmi e cerchi di cambiare gli eventi di una giornata, scoprendo però che ogni scelta può avere conseguenze inaspettate.\n\nMi è piaciuto tantissimo il modo in cui tutti i personaggi e gli avvenimenti sono collegati. L'unico piccolo difetto è che alcune situazioni finiscono per ripetersi, ma fortunatamente il gioco è breve e non si trascina inutilmente.\n\nArtisticamente l'ho trovato bellissimo, con colori, musiche e un'atmosfera malinconica che riescono a dirti tutto senza bisogno di parole. Un'esperienza che mi ha emozionato e che, una volta arrivato ai titoli di coda, mi ha lasciato qualcosa su cui riflettere.",
+    "vod": "https://youtu.be/pHgRgyVCO6o",
+    "vods": [],
+    "challenge": null,
+    "cover": "/images/covers/pasted-image-1792444871651.png"
   }
 ]
