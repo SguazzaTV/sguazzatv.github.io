@@ -450,5 +450,20 @@
     "vods": [],
     "challenge": null,
     "cover": "/images/covers/pasted-image-1792440310370.png"
+  },
+  {
+    "id": "dead-space-2023",
+    "title": "Dead Space (2023)",
+    "genre": "Survival Horror, Azione",
+    "hue": 260,
+    "motif": "",
+    "status": "completato",
+    "completed": "2026-07-06",
+    "rating": 4,
+    "review": "Dead Space riesce a metterti a disagio ancora prima che succeda qualcosa. L'USG Ishimura è inquietante dall'inizio alla fine: rumori, luci, silenzi e un comparto sonoro incredibile lavorano insieme per tenerti sempre in tensione.\n\nHo apprezzato molto il sistema di combattimento, dove devi smembrare i Necromorfi anziché limitarti a sparare alla testa, e l'interfaccia integrata direttamente nella tuta di Isaac.\n\nPeccato per il porting PC, che mi ha causato diversi cali di frame, e per alcune sezioni che alla lunga diventano ripetitive, soprattutto quando devi continuare a tornare nelle stesse zone. Nonostante questi difetti, rimane un survival horror con un'atmosfera davvero eccezionale.",
+    "vod": "https://youtu.be/1oeoENuWya4",
+    "vods": [],
+    "challenge": null,
+    "cover": "/images/covers/pasted-image-1792440388948.png"
   }
 ]
