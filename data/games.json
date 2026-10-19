@@ -764,5 +764,20 @@
     "vods": [],
     "challenge": null,
     "cover": "/images/covers/pasted-image-1792446774087.png"
+  },
+  {
+    "id": "parasocial",
+    "title": "Parasocial",
+    "genre": "Horror psicologico, Narrativo, Thriller",
+    "hue": 260,
+    "motif": "",
+    "status": "completato",
+    "completed": "2026-10-07",
+    "rating": 4,
+    "review": "Parasocial mi ha messo addosso un'ansia particolare, soprattutto perché parla di una streamer che si ritrova perseguitata da uno stalker. Insomma, un argomento che, facendo streaming, non posso proprio ignorare.\n\nLa cosa che mi è piaciuta di più è come riesce a trasformare situazioni normalissime in momenti inquietanti. Sei a casa tua, controlli il telefono, esci a fare due passi... e inizi a sentirti osservato ovunque. Porca vacca, che disagio!\n\nL'atmosfera è davvero riuscita e lo stile VHS ci sta benissimo. Il gameplay è abbastanza semplice e qualche situazione è un po' forzata, ma la curiosità di scoprire cosa stesse succedendo mi ha tenuto incollato fino alla fine.\n\nUn horror breve che dimostra quanto possa fare paura qualcosa di estremamente realistico.",
+    "vod": "https://youtu.be/unsiy3NtdTc",
+    "vods": [],
+    "challenge": null,
+    "cover": "/images/covers/pasted-image-1792446871664.png"
   }
 ]
