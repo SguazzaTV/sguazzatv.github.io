@@ -779,5 +779,20 @@
     "vods": [],
     "challenge": null,
     "cover": "/images/covers/pasted-image-1792446871664.png"
+  },
+  {
+    "id": "clive-barkers-hellraiser-revival",
+    "title": "Clive Barker's Hellraiser: Revival",
+    "genre": "Survival Horror, Azione, Horror",
+    "hue": 260,
+    "motif": "",
+    "status": "completato",
+    "completed": "2026-10-18",
+    "rating": 4,
+    "review": "Hellraiser: Revival è uno di quei giochi che dopo pochi minuti ti fanno pensare: «Ma che cazzo sto guardando?» Ahah.\n\nL'atmosfera è probabilmente la cosa che mi ha colpito di più. È tutto malato, disturbante e completamente fuori di testa. Tra Cenobiti, torture e creature raccapriccianti, il gioco non si fa davvero mancare niente.\n\nIl combattimento mi ha divertito, soprattutto per la brutalità degli scontri, anche se in alcune situazioni diventa un po' troppo caotico. Avrei preferito qualche momento di tensione psicologica in più, invece di puntare così tanto sull'azione e sul gore.\n\nNon sarà un horror per tutti, questo è poco ma sicuro, però mi sono divertito parecchio. Se cercate qualcosa di brutale e senza troppi filtri, qui siete decisamente nel posto giusto.",
+    "vod": "https://youtu.be/SUELMpNM6gU",
+    "vods": [],
+    "challenge": null,
+    "cover": "/images/covers/pasted-image-1792447116741.png"
   }
 ]
