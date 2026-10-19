@@ -495,5 +495,20 @@
     "vods": [],
     "challenge": null,
     "cover": "/images/covers/pasted-image-1792440650585.png"
+  },
+  {
+    "id": "elden-ring",
+    "title": "Elden Ring",
+    "genre": "Soulslike, Action RPG, Open World",
+    "hue": 260,
+    "motif": "",
+    "status": "completato",
+    "completed": "2026-08-02",
+    "rating": 5,
+    "review": "Elden Ring non è stato semplicemente un gioco, ma un viaggio che mi ha tenuto incollato allo schermo per moltissime ore. L'Interregno è un mondo incredibile: ogni volta che pensavo di aver visto tutto, trovavo una nuova zona, un dungeon nascosto o un boss completamente inaspettato.\n\nLa libertà di esplorazione è probabilmente la cosa che ho amato di più. Il gioco non ti prende per mano e ti lascia scoprire tutto con i tuoi tempi. Anche il combattimento è eccezionale, con tantissime armi, build e boss capaci di regalarti soddisfazioni enormi.\n\nE poi c'è stata la challenge RL1, affrontata senza salire di livello e senza evocazioni. Un'esperienza completamente diversa, fatta di tentativi, studio dei boss e tanta pazienza. Mi ha fatto riscoprire combattimenti che pensavo di conoscere già, rendendo ogni vittoria ancora più soddisfacente.\n\nQualche boss riciclato e alcune aree meno ispirate non cambiano il mio giudizio: è uno dei giochi più belli che abbia mai giocato.",
+    "vod": "https://youtu.be/9aZhefQbtOQ",
+    "vods": [],
+    "challenge": null,
+    "cover": "/images/covers/pasted-image-1792441059230.png"
   }
 ]
