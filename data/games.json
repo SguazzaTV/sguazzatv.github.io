@@ -749,5 +749,20 @@
     "vods": [],
     "challenge": null,
     "cover": "/images/covers/pasted-image-1792446656754.png"
+  },
+  {
+    "id": "buckshot-roulette",
+    "title": "Buckshot Roulette",
+    "genre": "Horror, Strategia, Roguelike",
+    "hue": 260,
+    "motif": "",
+    "status": "completato",
+    "completed": "2026-09-29",
+    "rating": 4,
+    "review": "Buckshot Roulette è una di quelle idee talmente assurde che ti chiedi come facciano a funzionare così bene. Praticamente giochi alla roulette russa con un fucile a pompa contro un tizio che sembra uscito direttamente da un incubo. Che cosa potrebbe andare storto?\n\nLa cosa che mi è piaciuta di più è la tensione che riesce a creare. Ogni colpo diventa una scelta: sparo a lui o rischio di spararmi da solo? E quando entrano in gioco gli oggetti, inizi pure a fare ragionamenti assurdi per cercare di fregare il banco.\n\nL'atmosfera è fantastica, il Dealer è inquietantissimo e ogni partita riesce a regalare momenti imprevedibili.\n\nÈ un gioco semplice e abbastanza corto, ma secondo me è proprio questo il suo punto di forza. Poche meccaniche, tanta tensione e una gran voglia di riprovarci.",
+    "vod": "https://youtu.be/pxFXiBehXZ8",
+    "vods": [],
+    "challenge": null,
+    "cover": "/images/covers/pasted-image-1792446774087.png"
   }
 ]
