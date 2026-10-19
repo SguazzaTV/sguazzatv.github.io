@@ -599,5 +599,20 @@
     "vods": [],
     "challenge": null,
     "cover": "/images/covers/pasted-image-1792444966416.png"
+  },
+  {
+    "id": "lords-of-the-fallen-2023",
+    "title": "Lords of the Fallen(2023)",
+    "genre": "Soulslike, Action RPG",
+    "hue": 260,
+    "motif": "",
+    "status": "completato",
+    "completed": "2026-09-02",
+    "rating": 4,
+    "review": "Lords of the Fallen mi ha dato una sensazione particolare: riconosci subito il DNA dei Souls, ma andando avanti capisci che cerca di costruirsi una propria identità.\n\nLa cosa che ho apprezzato di più è il sistema dei due mondi, Axiom e Umbral. La lanterna rende l'esplorazione molto interessante, perché ogni zona può nascondere nuovi percorsi e segreti. Anche l'atmosfera dark fantasy è fantastica, con ambientazioni enormi e davvero suggestive.\n\nIl combattimento funziona bene, i colpi hanno un buon peso e affrontare i nemici dà soddisfazione. Peccato per alcuni boss riciclati e soprattutto per la scarsa varietà dei nemici. Verso la fine mi sono ritrovato a combattere continuamente gli stessi avversari, e in certe situazioni il gioco sembra confondere la difficoltà con la quantità.\n\nNonostante questi difetti, avevo sempre voglia di esplorare e scoprire cosa ci fosse nella zona successiva. Per questo gli do un 4/5, anche se un po' risicato: imperfetto, ma con abbastanza personalità da tenermi incollato fino alla fine.",
+    "vod": "https://youtu.be/BXKsrv65urY",
+    "vods": [],
+    "challenge": null,
+    "cover": "/images/covers/pasted-image-1792445104211.png"
   }
 ]
