@@ -734,5 +734,20 @@
     "vods": [],
     "challenge": null,
     "cover": "/images/covers/pasted-image-1792446548016.png"
+  },
+  {
+    "id": "silent-hill-townfall",
+    "title": "Silent Hill: Townfall",
+    "genre": "Horror psicologico, Survival Horror",
+    "hue": 260,
+    "motif": "",
+    "status": "completato",
+    "completed": "2026-09-25",
+    "rating": 4,
+    "review": "Silent Hill: Townfall mi ha fatto capire una cosa: la nebbia è sempre quella, ma questa volta non sai davvero che cazzo ti aspetta.\n\nHo adorato l'atmosfera di St. Amelia, fredda, isolata e costantemente inquietante. Il passaggio alla prima persona funziona benissimo e il CRTV, che permette di scoprire indizi e segreti, è una trovata che ho apprezzato parecchio. Anche gli enigmi mi sono piaciuti, soprattutto quelli che ti costringono a fermarti e ragionare.\n\nLa storia mi ha tenuto incollato, con quella voglia continua di capire cosa fosse realmente successo. Peccato per lo stealth: nelle prime ore mette parecchia ansia, ma una volta capito come funzionano i nemici diventa fin troppo semplice e perde buona parte della tensione.\n\nNonostante questo, quando Townfall funziona, funziona davvero bene. Un horror con una propria identità, un'atmosfera fantastica e qualche difetto che gli impedisce di andare oltre il 4/5.",
+    "vod": "https://youtu.be/muR7FMg6BjU",
+    "vods": [],
+    "challenge": null,
+    "cover": "/images/covers/pasted-image-1792446656754.png"
   }
 ]
