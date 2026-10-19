@@ -435,5 +435,20 @@
     "vods": [],
     "challenge": null,
     "cover": "/images/covers/pasted-image-1792440227327.png"
+  },
+  {
+    "id": "dark-souls-3",
+    "title": "Dark Souls 3",
+    "genre": "Soulslike, Action RPG",
+    "hue": 260,
+    "motif": "",
+    "status": "completato",
+    "completed": "2026-07-02",
+    "rating": 5,
+    "review": "Dark Souls 3 è un'avventura che mi ha tenuto incollato allo schermo dall'inizio alla fine. Il gameplay è fluido, veloce e reattivo, e ogni combattimento richiede attenzione, pazienza e riflessi.\n\nIl vero punto forte sono i boss: alcuni dei più belli e memorabili che abbia mai affrontato. Ogni vittoria ti lascia una soddisfazione incredibile, soprattutto dopo decine di tentativi e qualche imprecazione.\n\nL'ambientazione mantiene quel senso di decadenza e mistero che adoro, con zone capaci di sorprenderti continuamente. Non tutto è perfetto: alcune aree sono meno ispirate e la telecamera ogni tanto diventa il nemico peggiore. Ma quando sono arrivato ai titoli di coda avevo una sola voglia: ricominciare da capo.",
+    "vod": "https://youtu.be/IH2h5g2D6DU",
+    "vods": [],
+    "challenge": null,
+    "cover": "/images/covers/pasted-image-1792440310370.png"
   }
 ]
