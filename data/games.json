@@ -345,5 +345,20 @@
     "vods": [],
     "challenge": null,
     "cover": "/images/covers/pasted-image-1792439127454.png"
+  },
+  {
+    "id": "silent-hill-2",
+    "title": "Silent Hill 2",
+    "genre": "Horror, Puzzle",
+    "hue": 260,
+    "motif": "",
+    "status": "completato",
+    "completed": "2026-05-20",
+    "rating": 4,
+    "review": "Silent Hill 2 è uno di quei giochi che non punta a spaventarti con i jumpscare, ma a farti entrare lentamente dentro una storia che ti accompagna fino ai titoli di coda.\n\nL'atmosfera è probabilmente il punto più forte: la nebbia, la città deserta, i rumori e quel costante senso di disagio riescono a creare qualcosa di unico. Ogni zona sembra voler raccontare qualcosa, anche quando non succede apparentemente nulla.\n\nLa storia è il vero cuore dell'esperienza. Per gran parte del gioco continui a farti domande e a cercare di capire cosa stia succedendo davvero. Le interpretazioni rimangono aperte fino alla fine.\n\nIl gameplay è semplice e funzionale, ma non è lui il protagonista. Il gioco è volutamente lento e, secondo me, è una scelta precisa degli sviluppatori: vuole darti il tempo di osservare, riflettere e assorbire tutto quello che sta succedendo.\n\nNon è un gioco che mi ha lasciato il vuoto dentro come The Last of Us Part II, né l'ansietta costante di Alien: Isolation, però riesce comunque a raccontare una storia particolare che vale la pena vivere almeno una volta.",
+    "vod": "https://youtu.be/xkP3tG7Rcpk",
+    "vods": [],
+    "challenge": null,
+    "cover": "/images/covers/pasted-image-1792439289596.png"
   }
 ]
