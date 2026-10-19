@@ -405,5 +405,20 @@
     "vods": [],
     "challenge": null,
     "cover": "/images/covers/pasted-image-1792439847246.png"
+  },
+  {
+    "id": "mafia-definitive-edition",
+    "title": "Mafia: Definitive Edition",
+    "genre": "Azione, Avventura, Story",
+    "hue": 260,
+    "motif": "",
+    "status": "completato",
+    "completed": "2026-06-19",
+    "rating": 4.5,
+    "review": "A volte basta una sola scelta per cambiare completamente una vita. È proprio quello che succede a Tommy Angelo, un semplice tassista che si ritrova quasi per caso coinvolto nel mondo della mafia.\n\nLa città di Lost Heaven è una delle cose che mi ha colpito di più. L'atmosfera degli anni '30, le automobili, la musica jazz e le strade riescono a farti vivere davvero quell'epoca.\n\nLa storia è il vero punto forte: segui l'evoluzione di Tommy all'interno della famiglia Salieri e finisci per affezionarti ai personaggi. Il gameplay è semplice e lineare, con qualche meccanica che sente il peso degli anni, ma funziona perfettamente per accompagnare la narrazione. Una storia criminale che mi è rimasta impressa.",
+    "vod": "https://youtu.be/vH78kkiWAjc",
+    "vods": [],
+    "challenge": null,
+    "cover": "/images/covers/pasted-image-1792439990719.png"
   }
 ]
