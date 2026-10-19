@@ -420,5 +420,20 @@
     "vods": [],
     "challenge": null,
     "cover": "/images/covers/pasted-image-1792439990719.png"
+  },
+  {
+    "id": "mafia-2-definitive-edition",
+    "title": "Mafia II: Definitive Edition",
+    "genre": "Azione, Avventura, Story",
+    "hue": 260,
+    "motif": "",
+    "status": "completato",
+    "completed": "2026-06-22",
+    "rating": 4,
+    "review": "Mafia II è una storia di amicizia, ambizione e criminalità, dove ogni scelta può cambiare completamente la vita dei protagonisti.\n\nEmpire Bay mi è rimasta davvero impressa. Vederla cambiare con il passare degli anni, tra neve, estate, automobili e quartieri sempre più vivi, riesce a farti entrare perfettamente nell'atmosfera dell'epoca.\n\nVito Scaletta è un protagonista che ho apprezzato tantissimo, soprattutto per il suo rapporto con Joe Barbaro. Il gameplay è semplice ma piacevole, con sparatorie, inseguimenti e missioni che mantengono viva l'attenzione.\n\nPeccato per i DLC, che ho trovato ripetitivi e qualitativamente inferiori alla campagna principale, tanto da abbandonarli. Resta comunque una storia che vale assolutamente la pena vivere, con personaggi che difficilmente dimenticherò.",
+    "vod": "https://youtu.be/0CflFIhBIx4",
+    "vods": [],
+    "challenge": null,
+    "cover": "/images/covers/pasted-image-1792440227327.png"
   }
 ]
