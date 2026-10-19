@@ -390,5 +390,20 @@
     "vods": [],
     "challenge": null,
     "cover": "/images/covers/pasted-image-1792439670701.png"
+  },
+  {
+    "id": "heavy-rain",
+    "title": "Heavy Rain",
+    "genre": "Avventura narrativa, Thriller, Interattivo",
+    "hue": 260,
+    "motif": "",
+    "status": "completato",
+    "completed": "2026-06-14",
+    "rating": 4,
+    "review": "Heavy Rain è uno di quei giochi che inizi pensando di dover trovare un serial killer e finisci completamente immerso in una storia fatta di scelte, tensione e continui colpi di scena.\n\nIl punto forte è sicuramente la narrazione: per tutta la durata continui a farti domande, a sospettare dei personaggi e a cercare di capire chi sia davvero l'Origami Killer. I quattro protagonisti raccontano la stessa vicenda da prospettive diverse e ogni decisione può cambiare il corso degli eventi.\n\nIl gameplay è piuttosto semplice e alcuni controlli e animazioni sono invecchiati male. Però il mistero e il modo in cui viene raccontata la storia riescono ancora a tenerti incollato allo schermo fino ai titoli di coda.",
+    "vod": "https://youtu.be/AaKQ8ycS2Qo",
+    "vods": [],
+    "challenge": null,
+    "cover": "/images/covers/pasted-image-1792439847246.png"
   }
 ]
