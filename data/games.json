@@ -614,5 +614,20 @@
     "vods": [],
     "challenge": null,
     "cover": "/images/covers/pasted-image-1792445104211.png"
+  },
+  {
+    "id": "how-to-fish",
+    "title": "How to Fish",
+    "genre": "Pesca, Avventura, Casual",
+    "hue": 260,
+    "motif": "",
+    "status": "completato",
+    "completed": "2026-08-28",
+    "rating": 4,
+    "review": "Pensavo di aver comprato un semplice gioco di pesca. Qualche ora dopo mi ritrovavo a prendere a fucilate i pesci appena tirati fuori dall'acqua... direi che qualcosa è andato storto!\n\nHow to Fish parte da un'idea stupidissima, ma riesce a costruirci attorno un gioco incredibilmente divertente. Peschi, vendi quello che hai catturato, migliori l'equipaggiamento, esplori nuove isole e affronti boss sempre più assurdi.\n\nLa cosa bella è che ogni nuova zona introduce qualcosa di diverso e hai continuamente voglia di scoprire quale follia ti aspetta dopo. Anche la progressione funziona bene: parti praticamente con niente e piano piano ti ritrovi con canne da pesca migliori e armi sempre più grosse.\n\nAlla lunga il ciclo di pesca, vendita e potenziamenti può diventare ripetitivo, ma il gioco non pretende di essere qualcosa di più complicato. È semplice, ignorante e tremendamente divertente. Per me un 4/5 meritatissimo!",
+    "vod": "https://youtu.be/bI56ksGLz7E",
+    "vods": [],
+    "challenge": null,
+    "cover": "/images/covers/pasted-image-1792445276845.png"
   }
 ]
