@@ -480,5 +480,20 @@
     "vods": [],
     "challenge": null,
     "cover": "/images/covers/pasted-image-1792440545808.png"
+  },
+  {
+    "id": "control",
+    "title": "Control",
+    "genre": "Azione, Avventura, Paranormale",
+    "hue": 260,
+    "motif": "",
+    "status": "completato",
+    "completed": "2026-07-19",
+    "rating": 4.5,
+    "review": "Per le prime ore non ci stavo capendo assolutamente nulla, eppure non riuscivo a smettere di giocare. Control è uno di quei giochi che ti catturano con il mistero e ti lasciano scoprire poco alla volta cosa sta succedendo.\n\nLa Oldest House è un'ambientazione incredibile, piena di stanze inquietanti, situazioni assurde e dettagli che ti fanno continuamente chiedere cosa ci sia dietro l'angolo.\n\nIl gameplay è probabilmente la cosa che ho apprezzato di più. All'inizio sembra un semplice sparatutto, ma quando inizi a sbloccare i poteri diventa uno spettacolo. Lanciare oggetti, distruggere intere stanze e combinare le abilità è davvero soddisfacente.\n\nPeccato per la narrazione, che in alcuni momenti ho trovato troppo confusa e concentrata nelle ultime fasi. Nonostante questo, Control ha una personalità enorme e riesce a sorprenderti continuamente.",
+    "vod": "https://youtu.be/K2Bm2RZGNpQ",
+    "vods": [],
+    "challenge": null,
+    "cover": "/images/covers/pasted-image-1792440650585.png"
   }
 ]
