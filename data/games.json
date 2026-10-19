@@ -704,5 +704,20 @@
     "vods": [],
     "challenge": null,
     "cover": "/images/covers/pasted-image-1792446263732.png"
+  },
+  {
+    "id": "viewfinder",
+    "title": "Viewfinder",
+    "genre": "Puzzle, Avventura, Platform",
+    "hue": 260,
+    "motif": "",
+    "status": "completato",
+    "completed": "2026-09-20",
+    "rating": 4.5,
+    "review": "Viewfinder mi ha fatto guardare lo schermo e pensare: «Aspetta... ma questa cosa è davvero possibile? NO VABBÈ!»\n\nL'idea alla base è assurda: scatti una fotografia, la posizioni davanti a te e quella foto diventa letteralmente parte del mondo di gioco. Una meccanica che sembra semplice, ma che riesce a creare enigmi davvero geniali.\n\nLa cosa che ho apprezzato di più è che il gioco continua a sorprenderti. Ogni volta che pensavo di aver capito tutto, arrivava qualcosa di nuovo a farmi ricominciare da zero. Alcuni livelli mi hanno fatto spremere il cervello, ma quando finalmente trovavo la soluzione la soddisfazione era enorme!\n\nHo adorato anche la libertà di sperimentare e lo stile artistico. Peccato per la storia, che sinceramente ho seguito poco e non mi ha coinvolto particolarmente.\n\nRimane comunque un'esperienza originalissima, capace di trasformare una semplice fotografia in qualcosa di incredibile.",
+    "vod": "https://youtu.be/Ia5fhXx8Jig",
+    "vods": [],
+    "challenge": null,
+    "cover": "/images/covers/pasted-image-1792446359434.png"
   }
 ]
