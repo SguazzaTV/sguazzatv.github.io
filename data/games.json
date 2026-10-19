@@ -584,5 +584,20 @@
     "vods": [],
     "challenge": null,
     "cover": "/images/covers/pasted-image-1792444871651.png"
+  },
+  {
+    "id": "mortal-shell-2",
+    "title": "Mortal Shell 2",
+    "genre": "Soulslike, Action RPG",
+    "hue": 260,
+    "motif": "",
+    "status": "completato",
+    "completed": "2026-08-26",
+    "rating": 4,
+    "review": "Mortal Shell 2 è difficile da giudicare. Mi ha tenuto incollato allo schermo dall'inizio alla fine, mi sono divertito e avevo continuamente voglia di andare avanti, ma allo stesso tempo mi ha lasciato la sensazione che mancasse qualcosa.\n\nIl combat system mi è piaciuto parecchio: i colpi hanno peso, i parry sono soddisfacenti e i boss sono quasi tutti originali e divertenti da affrontare. Peccato per alcune animazioni poco rifinite.\n\nIl problema principale è la poca varietà. Troppi nemici ripetuti, ambientazioni che finiscono per assomigliarsi e dungeon che, dopo un po', diventano prevedibili. Anche l'esplorazione perde parte del suo fascino proprio per questa ripetitività.\n\nNonostante tutto, il gioco è riuscito a farmi divertire per tutta la run. Ed è proprio questo il motivo per cui gli do 4/5, anche se con qualche riserva: sotto questi difetti c'è un gioco con un ottimo potenziale, che avrebbe soltanto bisogno di più varietà e di una rifinitura maggiore.",
+    "vod": "https://youtu.be/ERwcadJN6n0",
+    "vods": [],
+    "challenge": null,
+    "cover": "/images/covers/pasted-image-1792444966416.png"
   }
 ]
