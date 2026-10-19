@@ -689,5 +689,20 @@
     "vods": [],
     "challenge": null,
     "cover": "/images/covers/pasted-image-1792446055975.png"
+  },
+  {
+    "id": "portal-2",
+    "title": "Portal 2",
+    "genre": "Puzzle, Platform, Avventura",
+    "hue": 260,
+    "motif": "",
+    "status": "completato",
+    "completed": "2026-09-18",
+    "rating": 5,
+    "review": "Portal 2 mi ha fatto sentire un genio e un completo brucia baracche a distanza di trenta secondi. E forse è proprio questo il bello, ahah.\n\nLa cosa che mi ha impressionato di più è il puzzle design. Ogni volta che pensavo di aver capito il gioco, arrivava una nuova meccanica e dovevo ricominciare a ragionare. E quando finalmente trovavo la soluzione... NO VABBÈ, che soddisfazione!\n\nPoi ci sono GLaDOS e Wheatley, due personaggi spettacolari. I dialoghi mi hanno fatto morire dal ridere e riescono a dare una personalità incredibile a un gioco che, sulla carta, potrebbe essere soltanto una successione di enigmi.\n\nLa cosa assurda è che, nonostante sia del 2011, non ho sentito minimamente il peso degli anni. Non mi sono mai stancato di risolvere stanze e ogni nuova meccanica riusciva a sorprendermi. Cinque stelle meritatissime!",
+    "vod": "https://youtu.be/_8Bg99puVNE",
+    "vods": [],
+    "challenge": null,
+    "cover": "/images/covers/pasted-image-1792446263732.png"
   }
 ]
