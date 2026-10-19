@@ -360,5 +360,20 @@
     "vods": [],
     "challenge": null,
     "cover": "/images/covers/pasted-image-1792439289596.png"
+  },
+  {
+    "id": "red-dead-redemption-2",
+    "title": "Red Dead Redemption 2",
+    "genre": "Azione, Avventura, Open World",
+    "hue": 260,
+    "motif": "",
+    "status": "completato",
+    "completed": "2026-06-05",
+    "rating": 5,
+    "review": "Red Dead Redemption 2 è uno di quei giochi che inizi pensando di seguire la storia di Arthur Morgan e finisci per perderti in un mondo incredibilmente vivo e credibile. Ogni città, foresta e strada sembra avere qualcosa da raccontare, anche quando non stai facendo nulla di particolare.\n\nLa storia è probabilmente una delle migliori che abbia mai vissuto in un videogioco. Arthur è un personaggio a cui è impossibile non affezionarsi e il suo percorso ti rimane dentro anche dopo i titoli di coda.\n\nIl gameplay offre tantissima libertà, anche se alcuni movimenti possono risultare lenti e i controlli un po' legnosi. Ma sono difetti piccoli rispetto all'esperienza complessiva. Un gioco che non ti fa soltanto attraversare il Far West: te lo fa vivere.",
+    "vod": "https://youtu.be/28nlFGqXtvk",
+    "vods": [],
+    "challenge": null,
+    "cover": "/images/covers/pasted-image-1792439550228.png"
   }
 ]
