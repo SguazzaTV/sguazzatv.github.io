@@ -839,5 +839,20 @@
     "vods": [],
     "challenge": null,
     "cover": "/images/covers/pasted-image-1793610141352.png"
+  },
+  {
+    "id": "gartic-show",
+    "title": "Gartic Show",
+    "genre": "Party Game, Disegno, Multiplayer",
+    "hue": 260,
+    "motif": "",
+    "status": "completato",
+    "completed": "",
+    "rating": 4.5,
+    "review": "Gartic Show è uno di quei giochi che in live funzionano alla grande! È divertentissimo disegnare mentre la community cerca di indovinare, soprattutto quando vengono fuori disegni assurdi e risposte ancora peggiori.\n\nL'unica pecca, almeno per me, sono alcune parole talmente astratte che diventa quasi impossibile capire come rappresentarle. Magari sono io che non so disegnare, ma certe volte è davvero un'impresa!\n\nNel complesso un'esperienza molto divertente, perfetta per interagire con la chat e farsi quattro risate insieme. Sicuramente da riproporre!",
+    "vod": "https://youtu.be/CUXOB-BT_zo",
+    "vods": [],
+    "challenge": null,
+    "cover": "/images/covers/pasted-image-1793611444081.png"
   }
 ]
