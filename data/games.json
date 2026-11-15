@@ -854,5 +854,20 @@
     "vods": [],
     "challenge": null,
     "cover": "/images/covers/pasted-image-1793611444081.png"
+  },
+  {
+    "id": "lies-of-p",
+    "title": "Lies of P",
+    "genre": "Soulslike, Action RPG, Dark Fantasy",
+    "hue": 260,
+    "motif": "",
+    "status": "in_corso",
+    "completed": "",
+    "rating": null,
+    "review": "",
+    "vod": "https://youtu.be/3mp6j1SpsQo",
+    "vods": [],
+    "challenge": null,
+    "cover": "/images/covers/pasted-image-1794741164606.png"
   }
 ]
